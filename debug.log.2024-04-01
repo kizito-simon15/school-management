@@ -1,0 +1,2483 @@
+INFO 2024-04-22 11:55:47,943 Watching for file changes with StatReloader
+INFO 2024-04-22 11:55:51,635 "GET / HTTP/1.1" 302 0
+INFO 2024-04-22 11:55:51,654 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-22 11:55:51,750 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-22 11:55:51,755 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2024-04-22 11:55:51,755 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2024-04-22 11:55:51,756 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2024-04-22 11:55:51,756 "GET /static/dist/img/lake.png HTTP/1.1" 200 211327
+INFO 2024-04-22 11:55:51,933 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-22 11:55:52,197 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-22 11:55:52,200 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-22 11:55:52,208 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-22 11:55:52,217 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-22 11:55:52,222 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-22 11:55:52,231 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-22 11:55:52,232 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-22 11:55:53,676 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2024-04-22 11:55:53,744 Not Found: /favicon.ico
+INFO 2024-04-22 11:55:56,917 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-22 11:55:57,066 "GET / HTTP/1.1" 200 13205
+INFO 2024-04-22 11:55:57,165 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+WARNING 2024-04-22 11:55:57,165 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:55:57,258 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-22 11:55:57,817 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-22 11:56:11,980 "GET /finance/list/ HTTP/1.1" 200 16301
+WARNING 2024-04-22 11:56:12,017 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:56:22,100 "GET /student/list HTTP/1.1" 200 18531
+WARNING 2024-04-22 11:56:22,126 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:56:39,270 "GET /event/create/ HTTP/1.1" 200 14152
+WARNING 2024-04-22 11:56:39,321 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:56:41,316 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 11:56:41,376 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:56:47,376 "GET /event/1/ HTTP/1.1" 200 13427
+WARNING 2024-04-22 11:56:47,402 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:56:51,013 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 11:56:51,036 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:56:54,377 "GET /finance/list/ HTTP/1.1" 200 16301
+WARNING 2024-04-22 11:56:54,404 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:56:56,009 "GET /finance/invoices/ HTTP/1.1" 200 16152
+WARNING 2024-04-22 11:56:56,044 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:56:58,443 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-22 11:56:58,491 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:57:01,345 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-22 11:57:01,397 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:57:02,904 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 11:57:02,966 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:57:08,082 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 11:57:08,151 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:57:13,804 "GET /result/create/ HTTP/1.1" 200 16535
+WARNING 2024-04-22 11:57:13,875 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:57:26,609 "GET /result/edit-results/ HTTP/1.1" 200 35659
+WARNING 2024-04-22 11:57:26,683 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:57:50,536 "GET /result/edit-results/?class_select=1&subject_select=3&student_name= HTTP/1.1" 200 22256
+WARNING 2024-04-22 11:57:50,574 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:58:11,883 "GET /result/edit-results/?class_select=1&subject_select=5&student_name= HTTP/1.1" 200 22200
+WARNING 2024-04-22 11:58:11,950 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:58:43,753 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 11:58:43,820 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:58:51,200 "GET /result/edit-results/ HTTP/1.1" 200 35659
+WARNING 2024-04-22 11:58:51,265 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:59:00,171 "GET /result/edit-results/?class_select=2&subject_select=6&student_name= HTTP/1.1" 200 15591
+WARNING 2024-04-22 11:59:00,197 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:59:08,637 "GET /result/edit-results/?class_select=1&subject_select=5&student_name= HTTP/1.1" 200 22200
+WARNING 2024-04-22 11:59:08,692 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 11:59:29,928 "GET /result/edit-results/?class_select=&subject_select=&student_name=saraphina HTTP/1.1" 200 18086
+WARNING 2024-04-22 11:59:29,988 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:00:22,150 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 12:00:22,217 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:00:27,382 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:00:27,539 "GET /result/single/class/result/1/ HTTP/1.1" 200 14682
+WARNING 2024-04-22 12:00:27,621 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:00:37,015 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:00:37,171 "GET /result/single/class/result/2/ HTTP/1.1" 200 22683
+WARNING 2024-04-22 12:00:37,273 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:01:11,631 "GET /result/single/student/results/3/ HTTP/1.1" 200 15118
+WARNING 2024-04-22 12:01:11,690 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:01:33,633 "GET /result/student/3/ HTTP/1.1" 200 18711
+WARNING 2024-04-22 12:01:33,689 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:02:50,584 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 12:02:50,646 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:02:57,423 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 12:02:57,455 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:03:01,799 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:03:01,965 "GET /result/class/results/1/ HTTP/1.1" 200 14932
+WARNING 2024-04-22 12:03:02,025 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:03:07,773 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:03:07,947 "GET /result/class/results/2/ HTTP/1.1" 200 24457
+WARNING 2024-04-22 12:03:08,041 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:03:31,228 "GET /result/single/student/results/3/ HTTP/1.1" 200 15118
+WARNING 2024-04-22 12:03:31,290 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:03:39,106 "GET /result/student/3/ HTTP/1.1" 200 18711
+WARNING 2024-04-22 12:03:39,153 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:04:04,455 "GET /result/single/student/results/8/ HTTP/1.1" 200 15115
+WARNING 2024-04-22 12:04:04,520 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:04:08,798 "GET /result/student/8/ HTTP/1.1" 200 18707
+WARNING 2024-04-22 12:04:08,846 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:09:15,224 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 12:09:15,285 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:09:22,794 "GET /school_properties/properties/ HTTP/1.1" 200 18028
+WARNING 2024-04-22 12:09:22,854 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:09:44,941 "GET /school_properties/properties/2/ HTTP/1.1" 200 14244
+WARNING 2024-04-22 12:09:44,992 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:10:01,952 "GET /school_properties/properties/4/ HTTP/1.1" 200 14260
+WARNING 2024-04-22 12:10:01,995 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:10:18,667 "GET /school_properties/add-property/ HTTP/1.1" 200 13879
+WARNING 2024-04-22 12:10:18,723 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:10:23,986 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 12:10:24,048 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:10:27,993 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-22 12:10:28,048 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:10:50,169 "GET /school_properties/properties/ HTTP/1.1" 200 18028
+WARNING 2024-04-22 12:10:50,207 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:11:43,374 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 12:11:43,431 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:11:49,213 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 12:11:49,263 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:11:55,661 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 12:11:55,718 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:12:01,161 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:12:01,317 "GET /result/single/class/result/2/ HTTP/1.1" 200 22683
+WARNING 2024-04-22 12:12:01,418 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:12:08,224 "GET /result/single/student/results/3/ HTTP/1.1" 200 15118
+WARNING 2024-04-22 12:12:08,257 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:12:10,549 "GET /result/student/3/ HTTP/1.1" 200 18711
+WARNING 2024-04-22 12:12:10,598 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:15:54,978 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 12:15:55,053 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:15:59,661 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:15:59,814 "GET /result/single/class/result/2/ HTTP/1.1" 200 22683
+WARNING 2024-04-22 12:15:59,929 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:16:07,759 "GET /result/edit-results/ HTTP/1.1" 200 35659
+WARNING 2024-04-22 12:16:07,816 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:16:14,169 "GET /result/edit-results/?class_select=&subject_select=&student_name=saraphina HTTP/1.1" 200 18086
+WARNING 2024-04-22 12:16:14,218 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:16:41,556 "GET /result/edit-results/?class_select=&subject_select=&student_name=masudi HTTP/1.1" 200 18092
+WARNING 2024-04-22 12:16:41,617 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:18:09,180 "GET /result/edit-results/?class_select=&subject_select=3&student_name= HTTP/1.1" 200 22256
+WARNING 2024-04-22 12:18:09,244 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:18:29,039 "GET /result/create/ HTTP/1.1" 200 16535
+WARNING 2024-04-22 12:18:29,103 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:18:35,346 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-22 12:18:35,413 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:18:37,654 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 12:18:37,714 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:18:45,321 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 12:18:45,387 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:18:50,144 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:18:50,324 "GET /result/class/results/2/ HTTP/1.1" 200 24457
+WARNING 2024-04-22 12:18:50,363 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:20:15,405 "GET /school_properties/properties/ HTTP/1.1" 200 18028
+WARNING 2024-04-22 12:20:15,474 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:20:53,410 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 12:20:53,476 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:20:55,546 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 12:20:55,607 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:20:57,631 "GET /finance/list/ HTTP/1.1" 200 16301
+WARNING 2024-04-22 12:20:57,699 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:20:59,119 "GET /finance/invoices/ HTTP/1.1" 200 16152
+WARNING 2024-04-22 12:20:59,180 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:21:01,288 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 12:21:01,349 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:21:05,686 "GET /finance/invoices/ HTTP/1.1" 200 16152
+WARNING 2024-04-22 12:21:05,751 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:21:07,920 "GET /finance/invoices/1/ HTTP/1.1" 200 1175
+INFO 2024-04-22 12:21:19,297 "GET /finance/list/ HTTP/1.1" 200 16301
+WARNING 2024-04-22 12:21:19,361 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:21:21,061 "GET /finance/invoices/ HTTP/1.1" 200 16152
+WARNING 2024-04-22 12:21:21,120 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:21:23,889 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-22 12:21:23,949 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:21:29,273 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 12:21:29,337 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:21:31,828 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 12:21:31,888 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:21:52,513 "GET /finance/list/ HTTP/1.1" 200 16301
+WARNING 2024-04-22 12:21:52,574 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:21:59,859 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 14788
+WARNING 2024-04-22 12:21:59,914 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:22:05,762 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:22:05,816 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:22:31,138 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:22:31,197 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:23:19,325 "GET /non_staffs/non/list/ HTTP/1.1" 200 13874
+WARNING 2024-04-22 12:23:19,388 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:23:24,585 "GET /staff/list/ HTTP/1.1" 200 14026
+WARNING 2024-04-22 12:23:24,645 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:23:31,849 "GET /non_staffs/non/list/ HTTP/1.1" 200 13874
+WARNING 2024-04-22 12:23:31,896 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:23:43,918 "GET /finance/list/ HTTP/1.1" 200 16301
+WARNING 2024-04-22 12:23:43,975 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:23:46,680 "GET /finance/invoices/ HTTP/1.1" 200 16152
+WARNING 2024-04-22 12:23:46,735 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:23:49,391 "GET /finance/invoices/create/ HTTP/1.1" 200 16128
+WARNING 2024-04-22 12:23:49,423 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:23:58,197 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 12:23:58,248 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:24:02,575 "GET /staff/list/ HTTP/1.1" 200 14026
+WARNING 2024-04-22 12:24:02,628 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:24:21,232 "GET /updations/move-students/ HTTP/1.1" 200 14149
+WARNING 2024-04-22 12:24:21,288 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:24:34,060 "POST /updations/move-students/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:24:34,214 "GET /updations/move-students/success/ HTTP/1.1" 200 13552
+WARNING 2024-04-22 12:24:34,306 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:24:39,493 "GET /updations/move-students/ HTTP/1.1" 200 14149
+WARNING 2024-04-22 12:24:39,554 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:24:42,098 "GET /student/list HTTP/1.1" 200 18558
+WARNING 2024-04-22 12:24:42,146 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:25:02,536 "GET /student/6/ HTTP/1.1" 200 15722
+WARNING 2024-04-22 12:25:02,600 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:25:02,606 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2024-04-22 12:27:04,593 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:27:04,648 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:27:16,638 "GET /finance/list/ HTTP/1.1" 200 16301
+WARNING 2024-04-22 12:27:16,692 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:27:21,849 "GET /finance/create/ HTTP/1.1" 200 18037
+WARNING 2024-04-22 12:27:21,903 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:27:57,507 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:27:57,697 "GET /finance/list HTTP/1.1" 301 0
+INFO 2024-04-22 12:27:57,854 "GET /finance/list/ HTTP/1.1" 200 16779
+WARNING 2024-04-22 12:27:57,908 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:28:25,854 "GET /finance/2/detail/ HTTP/1.1" 200 15031
+WARNING 2024-04-22 12:28:25,909 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:29:04,390 "GET /finance/2/detail/ HTTP/1.1" 200 15031
+WARNING 2024-04-22 12:29:04,450 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:30:04,355 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:30:04,414 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:30:20,572 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:30:20,634 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:31:51,916 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:31:51,974 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:33:22,227 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:33:22,287 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:33:29,846 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:33:29,902 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:33:34,899 "GET /finance/2/detail/ HTTP/1.1" 200 15031
+WARNING 2024-04-22 12:33:34,958 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:34:03,154 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:34:03,210 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:34:32,298 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:34:32,351 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:34:45,548 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 12:34:45,607 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:34:50,148 "GET /event/create/ HTTP/1.1" 200 14152
+WARNING 2024-04-22 12:34:50,199 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:34:51,805 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 12:34:51,861 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:34:53,800 "GET /finance/list/ HTTP/1.1" 200 16779
+WARNING 2024-04-22 12:34:53,833 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:34:58,368 "GET /school_properties/properties/ HTTP/1.1" 200 18028
+WARNING 2024-04-22 12:34:58,430 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:35:00,627 "GET /student/list HTTP/1.1" 200 18558
+WARNING 2024-04-22 12:35:00,673 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:35:21,024 "GET /student/create/ HTTP/1.1" 200 17575
+WARNING 2024-04-22 12:35:21,077 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:36:19,131 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:36:19,312 "GET /student/list HTTP/1.1" 200 18979
+WARNING 2024-04-22 12:36:19,434 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:36:41,325 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 12:36:41,391 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:36:44,168 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:36:44,343 "GET /result/single/class/result/1/ HTTP/1.1" 200 15148
+WARNING 2024-04-22 12:36:44,405 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:36:52,571 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:36:52,736 "GET /result/single/class/result/2/ HTTP/1.1" 200 14682
+WARNING 2024-04-22 12:36:52,839 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:36:58,713 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:36:58,886 "GET /result/single/class/result/3/ HTTP/1.1" 200 22708
+WARNING 2024-04-22 12:36:58,989 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:38:01,676 "GET /term/list/ HTTP/1.1" 200 15810
+WARNING 2024-04-22 12:38:01,742 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:38:07,324 "GET /term/2/update/ HTTP/1.1" 200 14064
+WARNING 2024-04-22 12:38:07,397 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:38:10,729 "POST /term/2/update/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:38:10,885 "GET /term/list/ HTTP/1.1" 200 15951
+WARNING 2024-04-22 12:38:10,948 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:38:17,951 "GET /result/edit-results/ HTTP/1.1" 200 15591
+WARNING 2024-04-22 12:38:18,016 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:38:27,638 "GET /result/create/ HTTP/1.1" 200 17094
+WARNING 2024-04-22 12:38:27,702 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:38:37,696 "POST /result/create/ HTTP/1.1" 200 15856
+WARNING 2024-04-22 12:38:37,750 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:38:57,377 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:38:57,532 "GET /result/edit-results/ HTTP/1.1" 200 15591
+WARNING 2024-04-22 12:38:57,637 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:39:17,525 "GET /result/edit-results/?class_select=1&subject_select=&student_name= HTTP/1.1" 200 15591
+WARNING 2024-04-22 12:39:17,585 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:39:22,579 "GET /result/edit-results/?class_select=&subject_select=3&student_name= HTTP/1.1" 200 15591
+WARNING 2024-04-22 12:39:22,635 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:39:27,097 "GET /finance/list/ HTTP/1.1" 200 16779
+WARNING 2024-04-22 12:39:27,161 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:39:29,175 "GET /result/create/ HTTP/1.1" 200 17094
+WARNING 2024-04-22 12:39:29,243 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:39:39,686 "POST /result/create/ HTTP/1.1" 200 15871
+WARNING 2024-04-22 12:39:39,734 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:39:46,760 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:39:46,942 "GET /result/edit-results/ HTTP/1.1" 200 22882
+WARNING 2024-04-22 12:39:47,044 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:40:51,866 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:40:51,999 "GET /result/edit-results/ HTTP/1.1" 200 23223
+WARNING 2024-04-22 12:40:52,084 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:41:01,084 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 12:41:01,150 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:41:05,437 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 12:41:05,498 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:41:10,153 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:41:10,334 "GET /result/single/class/result/3/ HTTP/1.1" 200 20319
+WARNING 2024-04-22 12:41:10,413 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:41:53,840 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 12:41:53,898 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:41:59,033 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:41:59,183 "GET /result/single/class/result/2/ HTTP/1.1" 200 14682
+WARNING 2024-04-22 12:41:59,289 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:42:06,519 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:42:06,668 "GET /result/single/class/result/1/ HTTP/1.1" 200 15148
+WARNING 2024-04-22 12:42:06,738 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:42:19,077 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 12:42:19,133 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:42:23,877 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:42:24,032 "GET /result/class/results/2/ HTTP/1.1" 200 14932
+WARNING 2024-04-22 12:42:24,089 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:42:30,866 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:42:31,064 "GET /result/class/results/3/ HTTP/1.1" 200 21327
+WARNING 2024-04-22 12:42:31,164 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:43:05,419 "GET /result/single/student/results/1/ HTTP/1.1" 200 14523
+WARNING 2024-04-22 12:43:05,466 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:43:19,468 "GET /result/student/1/ HTTP/1.1" 200 18093
+WARNING 2024-04-22 12:43:19,524 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:43:31,949 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 12:43:32,000 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:44:02,396 "GET /term/list/ HTTP/1.1" 200 15810
+WARNING 2024-04-22 12:44:02,454 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:44:05,925 "GET /term/3/update/ HTTP/1.1" 200 14064
+WARNING 2024-04-22 12:44:05,994 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:44:09,330 "POST /term/3/update/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:44:09,495 "GET /term/list/ HTTP/1.1" 200 15951
+WARNING 2024-04-22 12:44:09,557 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:44:16,593 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 12:44:16,652 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:44:22,231 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:44:22,397 "GET /result/single/class/result/3/ HTTP/1.1" 200 22707
+WARNING 2024-04-22 12:44:22,493 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:45:03,528 "GET /result/single/student/results/3/ HTTP/1.1" 200 15118
+WARNING 2024-04-22 12:45:03,586 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:45:06,917 "GET /result/student/3/ HTTP/1.1" 200 18714
+WARNING 2024-04-22 12:45:06,970 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:47:00,311 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 12:47:00,367 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:47:36,859 "GET /result/create/ HTTP/1.1" 200 17094
+WARNING 2024-04-22 12:47:36,921 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:47:44,015 "POST /result/create/ HTTP/1.1" 200 15856
+WARNING 2024-04-22 12:47:44,068 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:47:53,018 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:47:53,190 "GET /result/edit-results/ HTTP/1.1" 200 37262
+WARNING 2024-04-22 12:47:53,250 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:48:59,805 "GET /result/edit-results/?class_select=1&subject_select=&student_name= HTTP/1.1" 200 37262
+WARNING 2024-04-22 12:48:59,856 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:49:20,533 "GET /result/edit-results/?class_select=&subject_select=&student_name=ARON HTTP/1.1" 200 17176
+WARNING 2024-04-22 12:49:20,587 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:49:41,473 "POST /result/edit-results/?class_select=&subject_select=&student_name=ARON HTTP/1.1" 302 0
+INFO 2024-04-22 12:49:41,637 "GET /result/edit-results/ HTTP/1.1" 200 37449
+WARNING 2024-04-22 12:49:41,681 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:49:55,011 "GET /finance/list/ HTTP/1.1" 200 16779
+WARNING 2024-04-22 12:49:55,079 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:50:03,511 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 12:50:03,570 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:50:06,190 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 12:50:06,355 "GET /result/single/class/result/1/ HTTP/1.1" 200 15912
+WARNING 2024-04-22 12:50:06,411 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:50:49,053 "GET /result/single/student/results/10/ HTTP/1.1" 200 14811
+WARNING 2024-04-22 12:50:49,100 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:50:59,292 "GET /result/student/10/ HTTP/1.1" 200 18379
+WARNING 2024-04-22 12:50:59,339 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:51:04,849 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 12:51:04,901 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:51:10,620 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 12:51:10,661 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:51:12,739 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:51:12,913 "GET /result/class/results/1/ HTTP/1.1" 200 16522
+WARNING 2024-04-22 12:51:12,974 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:51:48,857 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:51:49,006 "GET /result/class/results/2/ HTTP/1.1" 200 14932
+WARNING 2024-04-22 12:51:49,107 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:51:56,088 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:51:56,245 "GET /result/class/results/3/ HTTP/1.1" 200 24481
+WARNING 2024-04-22 12:51:56,338 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:52:35,464 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 12:52:35,527 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:52:47,764 "GET /subject/list/ HTTP/1.1" 200 15891
+WARNING 2024-04-22 12:52:47,835 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:52:55,786 "GET /school_properties/properties/ HTTP/1.1" 200 18028
+WARNING 2024-04-22 12:52:55,826 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:52:57,839 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 12:52:57,902 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:53:06,010 "GET /school_properties/properties/ HTTP/1.1" 200 18028
+WARNING 2024-04-22 12:53:06,072 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:53:12,077 "GET /student/list HTTP/1.1" 200 18833
+WARNING 2024-04-22 12:53:12,137 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:53:21,113 "GET /staff/list/ HTTP/1.1" 200 14026
+WARNING 2024-04-22 12:53:21,177 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:53:25,282 "GET /student/list HTTP/1.1" 200 18833
+WARNING 2024-04-22 12:53:25,336 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 12:53:28,763 "GET /goto-admin/ HTTP/1.1" 302 0
+INFO 2024-04-22 12:53:28,962 "GET /admin/ HTTP/1.1" 200 6719
+INFO 2024-04-22 12:53:29,060 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-04-22 12:53:29,061 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-04-22 12:53:29,062 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-22 12:53:29,062 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2024-04-22 12:53:29,063 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2024-04-22 12:53:29,111 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-22 12:53:29,111 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-22 12:53:29,210 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-22 12:53:29,211 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-22 13:07:51,174 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-22 13:07:51,236 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:07:54,893 "GET /student/list HTTP/1.1" 200 18833
+WARNING 2024-04-22 13:07:54,954 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:07:57,481 "GET /student/create/ HTTP/1.1" 200 17575
+WARNING 2024-04-22 13:07:57,529 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:08:47,005 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:08:47,178 "GET /student/list HTTP/1.1" 200 19246
+WARNING 2024-04-22 13:08:47,277 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:08:51,136 "GET /student/create/ HTTP/1.1" 200 17575
+WARNING 2024-04-22 13:08:51,187 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:09:32,266 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:09:32,448 "GET /student/list HTTP/1.1" 200 19523
+WARNING 2024-04-22 13:09:32,546 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:09:35,746 "GET /student/create/ HTTP/1.1" 200 17575
+WARNING 2024-04-22 13:09:35,796 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:10:02,004 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:10:02,194 "GET /student/list HTTP/1.1" 200 19786
+WARNING 2024-04-22 13:10:02,302 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:10:04,617 "GET /student/create/ HTTP/1.1" 200 17575
+WARNING 2024-04-22 13:10:04,663 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:10:27,495 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:10:27,644 "GET /student/list HTTP/1.1" 200 20054
+WARNING 2024-04-22 13:10:27,743 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:10:29,894 "GET /student/create/ HTTP/1.1" 200 17575
+WARNING 2024-04-22 13:10:29,947 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:11:08,592 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:11:08,773 "GET /student/list HTTP/1.1" 200 20321
+WARNING 2024-04-22 13:11:08,875 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:11:19,622 "GET /student/create/ HTTP/1.1" 200 17575
+WARNING 2024-04-22 13:11:19,678 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:11:55,138 "POST /student/create/ HTTP/1.1" 200 17761
+WARNING 2024-04-22 13:11:55,180 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:12:00,571 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:12:00,752 "GET /student/list HTTP/1.1" 200 20588
+WARNING 2024-04-22 13:12:00,853 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:12:03,620 "GET /student/create/ HTTP/1.1" 200 17575
+WARNING 2024-04-22 13:12:03,644 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:12:34,124 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:12:34,305 "GET /student/list HTTP/1.1" 200 20853
+WARNING 2024-04-22 13:12:34,415 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:12:41,642 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 13:12:41,700 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:13:02,187 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 13:13:02,240 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:13:39,763 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:13:39,936 "GET /result/edit-results/ HTTP/1.1" 200 37306
+WARNING 2024-04-22 13:13:39,990 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:13:57,191 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 15591
+WARNING 2024-04-22 13:13:57,252 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:14:06,746 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 15591
+WARNING 2024-04-22 13:14:06,797 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:14:12,229 "GET /result/edit-results/?class_select=1&subject_select=&student_name= HTTP/1.1" 200 37306
+WARNING 2024-04-22 13:14:12,282 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:14:32,460 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 15591
+WARNING 2024-04-22 13:14:32,514 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:14:40,630 "GET /student/list HTTP/1.1" 200 20707
+WARNING 2024-04-22 13:14:40,691 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:14:54,488 "GET /finance/list/ HTTP/1.1" 200 16779
+WARNING 2024-04-22 13:14:54,543 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:15:01,388 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:15:01,449 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:15:05,172 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 13:15:05,419 "GET /result/single/class/result/2/ HTTP/1.1" 200 17949
+WARNING 2024-04-22 13:15:05,483 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:15:17,654 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 13:15:17,717 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:15:19,723 "GET /finance/list/ HTTP/1.1" 200 16779
+WARNING 2024-04-22 13:15:19,775 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:15:21,908 "GET /finance/invoices/ HTTP/1.1" 200 16152
+WARNING 2024-04-22 13:15:21,962 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:15:25,090 "GET /finance/invoices/ HTTP/1.1" 200 16152
+WARNING 2024-04-22 13:15:25,144 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:15:27,011 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 13:15:27,069 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:15:39,715 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 13:15:39,759 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:15:55,016 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:15:55,189 "GET /result/edit-results/ HTTP/1.1" 200 42953
+WARNING 2024-04-22 13:15:55,246 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:16:15,050 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 21175
+WARNING 2024-04-22 13:16:15,105 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:16:45,899 "POST /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 302 0
+INFO 2024-04-22 13:16:46,072 "GET /result/edit-results/ HTTP/1.1" 200 43173
+WARNING 2024-04-22 13:16:46,131 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:16:56,954 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:16:57,020 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:17:01,604 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 13:17:01,777 "GET /result/single/class/result/1/ HTTP/1.1" 200 15912
+WARNING 2024-04-22 13:17:01,804 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:17:44,713 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 13:17:44,894 "GET /result/single/class/result/2/ HTTP/1.1" 200 19029
+WARNING 2024-04-22 13:17:44,995 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:18:26,470 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 13:18:26,536 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:18:31,796 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 13:18:31,848 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:18:49,734 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:18:49,761 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:18:53,230 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 13:18:53,420 "GET /result/single/class/result/2/ HTTP/1.1" 200 19029
+WARNING 2024-04-22 13:18:53,473 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:18:57,237 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 13:18:57,296 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:19:05,036 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 13:19:05,082 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:19:11,492 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:19:11,689 "GET /result/edit-results/ HTTP/1.1" 200 48628
+WARNING 2024-04-22 13:19:11,752 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:19:17,380 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 26826
+WARNING 2024-04-22 13:19:17,405 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:19:47,931 "POST /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 302 0
+INFO 2024-04-22 13:19:48,137 "GET /result/edit-results/ HTTP/1.1" 200 48848
+WARNING 2024-04-22 13:19:48,180 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:19:54,856 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:19:54,902 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:20:01,196 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 13:20:01,377 "GET /result/single/class/result/2/ HTTP/1.1" 200 20085
+WARNING 2024-04-22 13:20:01,475 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:20:43,258 "GET /result/single/student/results/15/ HTTP/1.1" 200 14813
+WARNING 2024-04-22 13:20:43,317 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:20:46,358 "GET /result/student/15/ HTTP/1.1" 200 18380
+WARNING 2024-04-22 13:20:46,415 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:20:57,364 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 13:20:57,420 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:21:04,849 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 13:21:04,902 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:21:09,524 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:21:09,796 "GET /result/edit-results/ HTTP/1.1" 200 54352
+WARNING 2024-04-22 13:21:09,845 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:21:20,686 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 32550
+WARNING 2024-04-22 13:21:20,740 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:21:48,873 "POST /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 32627
+WARNING 2024-04-22 13:21:48,910 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:22:11,768 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 32550
+WARNING 2024-04-22 13:22:11,820 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:22:35,000 "POST /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 302 0
+INFO 2024-04-22 13:22:35,231 "GET /result/edit-results/ HTTP/1.1" 200 54572
+WARNING 2024-04-22 13:22:35,298 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:22:45,149 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:22:45,210 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:22:49,477 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 13:22:49,624 "GET /result/single/class/result/2/ HTTP/1.1" 200 21314
+WARNING 2024-04-22 13:22:49,674 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:23:53,394 "GET /result/edit-results/ HTTP/1.1" 200 54429
+WARNING 2024-04-22 13:23:53,445 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:23:58,902 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 13:23:58,965 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:24:03,378 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:24:03,576 "GET /result/class/results/2/ HTTP/1.1" 200 22956
+WARNING 2024-04-22 13:24:03,635 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:09,449 "GET /student/list HTTP/1.1" 200 20707
+WARNING 2024-04-22 13:26:09,508 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:23,572 "GET /student/13/ HTTP/1.1" 200 15196
+WARNING 2024-04-22 13:26:23,635 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:27,216 "GET /finance/invoices/ HTTP/1.1" 200 16152
+WARNING 2024-04-22 13:26:27,276 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:33,894 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 13:26:33,951 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:40,654 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:26:40,713 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:43,614 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 13:26:43,674 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:46,887 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:26:46,953 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:48,132 "GET /finance/list/ HTTP/1.1" 200 16779
+WARNING 2024-04-22 13:26:48,190 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:52,048 "GET /finance/1/detail/ HTTP/1.1" 200 15142
+WARNING 2024-04-22 13:26:52,106 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:26:59,229 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 13:26:59,290 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:30:32,312 /home/kizito/element_zone/apps/finance/forms.py changed, reloading.
+INFO 2024-04-22 13:30:32,874 Watching for file changes with StatReloader
+INFO 2024-04-22 13:31:42,451 Watching for file changes with StatReloader
+INFO 2024-04-22 13:31:46,707 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 13:31:46,760 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:31:51,002 "GET /staff/list/ HTTP/1.1" 200 14152
+WARNING 2024-04-22 13:31:51,063 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:31:54,808 "GET /staff/1/ HTTP/1.1" 200 14797
+WARNING 2024-04-22 13:31:54,854 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:31:58,653 "GET /staff/1/update/ HTTP/1.1" 200 17064
+WARNING 2024-04-22 13:31:58,700 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:02,074 "GET /event/create/ HTTP/1.1" 200 14152
+WARNING 2024-04-22 13:32:02,129 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:03,780 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 13:32:03,834 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:05,759 "GET /finance/list/ HTTP/1.1" 200 16779
+WARNING 2024-04-22 13:32:05,823 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:08,505 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 13:32:08,560 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:11,398 "GET /finance/invoices/1/ HTTP/1.1" 200 1175
+INFO 2024-04-22 13:32:16,188 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 13:32:16,242 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:18,126 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 13:32:18,176 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:19,362 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-22 13:32:19,421 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:20,756 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 13:32:20,807 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:22,668 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 13:32:22,728 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:31,168 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:32:31,225 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:33,872 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 13:32:33,937 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:36,403 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 13:32:36,459 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:41,325 "GET /result/edit-results/ HTTP/1.1" 200 54429
+WARNING 2024-04-22 13:32:41,380 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:32:51,045 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 32627
+WARNING 2024-04-22 13:32:51,096 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:33:46,668 "POST /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 32858
+WARNING 2024-04-22 13:33:46,695 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:33:57,568 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 13:33:57,628 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:34:01,533 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:34:01,723 "GET /result/class/results/2/ HTTP/1.1" 200 22956
+WARNING 2024-04-22 13:34:01,824 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:34:21,040 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:34:21,099 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:34:26,967 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 13:34:27,027 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:34:33,620 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 13:34:33,668 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:34:42,944 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:34:43,125 "GET /result/edit-results/ HTTP/1.1" 200 54429
+WARNING 2024-04-22 13:34:43,159 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:34:48,237 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 32627
+WARNING 2024-04-22 13:34:48,277 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:36:29,041 "POST /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 302 0
+INFO 2024-04-22 13:36:29,263 "GET /result/edit-results/ HTTP/1.1" 200 54803
+WARNING 2024-04-22 13:36:29,319 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:36:41,102 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:36:41,150 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:36:44,680 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 13:36:44,862 "GET /result/single/class/result/2/ HTTP/1.1" 200 21265
+WARNING 2024-04-22 13:36:44,975 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:37:10,962 "GET /result/single/student/results/12/ HTTP/1.1" 200 15110
+WARNING 2024-04-22 13:37:11,023 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:37:14,418 "GET /result/student/12/ HTTP/1.1" 200 18678
+WARNING 2024-04-22 13:37:14,465 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:38:25,302 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 13:38:25,366 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:38:29,103 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:38:29,284 "GET /result/class/results/2/ HTTP/1.1" 200 22865
+WARNING 2024-04-22 13:38:29,354 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:42:01,311 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 13:42:01,378 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:42:07,123 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 13:42:07,185 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:42:09,901 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 13:42:09,953 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:42:12,020 "GET /finance/list/ HTTP/1.1" 200 16779
+WARNING 2024-04-22 13:42:12,053 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:42:14,683 "GET /finance/2/detail/ HTTP/1.1" 200 15096
+WARNING 2024-04-22 13:42:14,758 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:42:18,272 "GET /finance/2/delete/ HTTP/1.1" 200 13536
+WARNING 2024-04-22 13:42:18,318 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:42:20,232 "POST /finance/2/delete/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:42:20,388 "GET /finance/list/ HTTP/1.1" 200 16301
+WARNING 2024-04-22 13:42:20,493 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:42:34,008 "GET /finance/1/detail/ HTTP/1.1" 200 15256
+WARNING 2024-04-22 13:42:34,075 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:42:41,006 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 15237
+WARNING 2024-04-22 13:42:41,051 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:43:00,620 "POST /finance/receipt/create?invoice=1 HTTP/1.1" 302 0
+INFO 2024-04-22 13:43:00,792 "GET /finance/list/ HTTP/1.1" 200 16305
+WARNING 2024-04-22 13:43:00,869 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:43:15,154 "GET /finance/1/detail/ HTTP/1.1" 200 15451
+WARNING 2024-04-22 13:43:15,214 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:43:19,615 "GET /event/create/ HTTP/1.1" 200 14152
+WARNING 2024-04-22 13:43:19,676 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:43:22,830 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 13:43:22,888 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:43:25,403 "GET /event/ HTTP/1.1" 200 13294
+WARNING 2024-04-22 13:43:25,456 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:43:56,486 /home/kizito/element_zone/event/__init__.py changed, reloading.
+INFO 2024-04-22 13:43:56,951 Watching for file changes with StatReloader
+INFO 2024-04-22 13:45:02,158 Watching for file changes with StatReloader
+INFO 2024-04-22 13:45:05,838 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 13:45:05,904 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:45:08,532 "GET /event/ HTTP/1.1" 200 13854
+WARNING 2024-04-22 13:45:08,597 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:45:15,464 "GET /event/1/ HTTP/1.1" 200 13536
+WARNING 2024-04-22 13:45:15,517 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:45:17,311 "GET /event/1/delete/ HTTP/1.1" 200 13553
+WARNING 2024-04-22 13:45:17,361 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:45:19,429 "POST /event/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:45:19,601 "GET /event/ HTTP/1.1" 200 13136
+WARNING 2024-04-22 13:45:19,710 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:45:22,940 "GET /event/create/ HTTP/1.1" 200 14257
+WARNING 2024-04-22 13:45:23,007 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:46:20,450 "POST /event/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:46:20,631 "GET /event/ HTTP/1.1" 200 14357
+WARNING 2024-04-22 13:46:20,738 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:46:32,485 "GET /finance/list/ HTTP/1.1" 200 16305
+WARNING 2024-04-22 13:46:32,551 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:46:36,350 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 13:46:36,416 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:46:38,361 "GET /student/list HTTP/1.1" 200 20707
+WARNING 2024-04-22 13:46:38,422 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:46:41,322 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 13:46:41,366 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:46:44,148 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 13:46:44,205 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:46:55,614 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:46:55,669 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:46:59,612 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 13:46:59,777 "GET /result/single/class/result/3/ HTTP/1.1" 200 22707
+WARNING 2024-04-22 13:46:59,836 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:47:08,382 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 13:47:08,442 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:48:15,150 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 13:48:15,210 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:48:19,618 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:48:19,808 "GET /result/class/results/2/ HTTP/1.1" 200 22865
+WARNING 2024-04-22 13:48:19,870 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:48:36,961 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 13:48:37,014 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:48:42,501 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 13:48:42,564 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:48:46,268 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 13:48:46,449 "GET /result/single/class/result/2/ HTTP/1.1" 200 21265
+WARNING 2024-04-22 13:48:46,510 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:52:26,274 /home/kizito/element_zone/apps/result/models.py changed, reloading.
+INFO 2024-04-22 13:52:27,382 Watching for file changes with StatReloader
+INFO 2024-04-22 13:52:41,710 Watching for file changes with StatReloader
+INFO 2024-04-22 13:52:46,395 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 13:52:46,456 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:52:51,629 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 13:52:51,688 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 13:52:56,361 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 13:52:56,550 "GET /result/class/results/2/ HTTP/1.1" 200 22865
+WARNING 2024-04-22 13:52:56,646 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 14:43:21,058 /home/kizito/element_zone/apps/result/models.py changed, reloading.
+INFO 2024-04-22 14:43:21,515 Watching for file changes with StatReloader
+INFO 2024-04-22 14:43:31,597 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 14:43:31,634 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 14:43:33,271 Not Found: /favicon.ico
+INFO 2024-04-22 14:43:36,058 "POST /result/single/class/list HTTP/1.1" 302 0
+ERROR 2024-04-22 14:43:36,155 Internal Server Error: /result/single/class/result/2/
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/kizito/element_zone/apps/result/views.py", line 413, in get_context_data
+    subject_overall_average = Result.calculate_subject_overall_average(selected_class, subject)
+AttributeError: type object 'Result' has no attribute 'calculate_subject_overall_average'
+ERROR 2024-04-22 14:43:36,156 "GET /result/single/class/result/2/ HTTP/1.1" 500 96363
+INFO 2024-04-22 14:54:15,558 /home/kizito/element_zone/apps/result/models.py changed, reloading.
+INFO 2024-04-22 14:54:16,043 Watching for file changes with StatReloader
+INFO 2024-04-22 14:54:22,309 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 14:54:22,374 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 14:54:30,586 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 14:54:30,666 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 14:54:35,268 "POST /result/class/ HTTP/1.1" 302 0
+ERROR 2024-04-22 14:54:35,369 Internal Server Error: /result/class/results/2/
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/kizito/element_zone/apps/result/views.py", line 325, in get_context_data
+    subject_overall_average = Result.calculate_subject_overall_average(selected_class, subject)
+TypeError: Result.calculate_subject_overall_average() missing 1 required positional argument: 'subject'
+ERROR 2024-04-22 14:54:35,369 "GET /result/class/results/2/ HTTP/1.1" 500 96238
+WARNING 2024-04-22 14:54:35,655 Not Found: /favicon.ico
+INFO 2024-04-22 14:59:11,631 /home/kizito/element_zone/apps/result/models.py changed, reloading.
+INFO 2024-04-22 14:59:12,071 Watching for file changes with StatReloader
+WARNING 2024-04-22 14:59:16,929 Not Found: /favicon.ico
+INFO 2024-04-22 14:59:18,562 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 14:59:18,727 "GET /result/class/results/2/ HTTP/1.1" 200 22865
+WARNING 2024-04-22 14:59:18,827 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:20:04,352 "GET /staff/list/ HTTP/1.1" 200 14152
+WARNING 2024-04-22 15:20:04,414 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:20:05,290 Not Found: /favicon.ico
+INFO 2024-04-22 15:20:08,440 "GET /non_staffs/non/list/ HTTP/1.1" 200 13874
+WARNING 2024-04-22 15:20:08,512 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:20:08,992 Not Found: /favicon.ico
+INFO 2024-04-22 15:20:13,964 "GET /event/ HTTP/1.1" 200 14214
+WARNING 2024-04-22 15:20:14,026 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:20:21,004 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 15:20:21,072 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:20:21,399 Not Found: /favicon.ico
+INFO 2024-04-22 15:20:25,165 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 15:20:25,348 "GET /result/single/class/result/2/ HTTP/1.1" 200 20214
+WARNING 2024-04-22 15:20:25,416 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:20:25,958 Not Found: /favicon.ico
+INFO 2024-04-22 15:21:17,672 "GET /result/single/student/results/13/ HTTP/1.1" 200 15102
+WARNING 2024-04-22 15:21:17,716 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:21:20,400 Not Found: /favicon.ico
+INFO 2024-04-22 15:21:31,720 "GET /result/single/student/results/15/ HTTP/1.1" 200 15110
+WARNING 2024-04-22 15:21:31,780 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:21:34,299 Not Found: /favicon.ico
+INFO 2024-04-22 15:21:55,586 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 15:21:55,647 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:21:57,169 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 15:21:57,221 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:21:57,893 Not Found: /favicon.ico
+INFO 2024-04-22 15:22:00,779 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 15:22:00,837 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:22:05,074 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 15:22:05,222 "GET /result/class/results/2/ HTTP/1.1" 200 22865
+WARNING 2024-04-22 15:22:05,272 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:22:05,890 Not Found: /favicon.ico
+INFO 2024-04-22 15:28:30,783 "GET /finance/list/ HTTP/1.1" 200 16305
+WARNING 2024-04-22 15:28:30,842 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:28:31,376 Not Found: /favicon.ico
+INFO 2024-04-22 15:28:35,888 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 15:28:35,944 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:28:39,804 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 15:28:39,985 "GET /result/class/results/2/ HTTP/1.1" 200 22249
+WARNING 2024-04-22 15:28:40,092 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:28:40,661 Not Found: /favicon.ico
+INFO 2024-04-22 15:30:23,004 "GET /finance/list/ HTTP/1.1" 200 16305
+WARNING 2024-04-22 15:30:23,061 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:30:23,531 Not Found: /favicon.ico
+INFO 2024-04-22 15:30:25,429 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 15:30:25,491 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:30:29,237 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 15:30:29,403 "GET /result/class/results/2/ HTTP/1.1" 200 22255
+WARNING 2024-04-22 15:30:29,508 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:31:50,980 Not Found: /favicon.ico
+INFO 2024-04-22 15:31:52,457 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 15:31:52,622 "GET /result/class/results/2/ HTTP/1.1" 200 22265
+WARNING 2024-04-22 15:31:52,728 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 15:31:53,454 Not Found: /favicon.ico
+INFO 2024-04-22 15:34:01,418 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 15:34:01,582 "GET /result/class/results/3/ HTTP/1.1" 200 24627
+WARNING 2024-04-22 15:34:01,684 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:36:21,456 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 15:36:21,613 "GET /result/class/results/3/ HTTP/1.1" 200 24383
+WARNING 2024-04-22 15:36:21,712 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:38:53,983 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 15:38:54,130 "GET /result/class/results/3/ HTTP/1.1" 200 24449
+WARNING 2024-04-22 15:38:54,243 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:42:14,943 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 15:42:15,092 "GET /result/class/results/3/ HTTP/1.1" 200 24757
+WARNING 2024-04-22 15:42:15,194 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:44:35,470 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 15:44:35,626 "GET /result/class/results/3/ HTTP/1.1" 200 24772
+WARNING 2024-04-22 15:44:35,728 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:44:51,941 "GET /result/single/student/results/3/ HTTP/1.1" 200 15118
+WARNING 2024-04-22 15:44:51,978 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:44:54,696 "GET /result/student/3/ HTTP/1.1" 200 18714
+WARNING 2024-04-22 15:44:54,765 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:45:25,266 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 15:45:25,332 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:45:38,836 "GET /result/edit-results/ HTTP/1.1" 200 54660
+WARNING 2024-04-22 15:45:38,897 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:45:48,293 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 15:45:48,363 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:45:50,934 "GET /event/ HTTP/1.1" 200 14214
+WARNING 2024-04-22 15:45:50,999 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:45:54,591 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 15:45:54,652 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:46:05,004 "GET /school_properties/properties/ HTTP/1.1" 200 18028
+WARNING 2024-04-22 15:46:05,077 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 15:57:19,074 Watching for file changes with StatReloader
+INFO 2024-04-22 16:00:14,319 Watching for file changes with StatReloader
+INFO 2024-04-22 16:00:19,464 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 16:00:19,530 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:00:27,132 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 16:00:27,197 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:00:32,952 "POST /result/single/class/list HTTP/1.1" 302 0
+ERROR 2024-04-22 16:00:33,026 Internal Server Error: /result/single/class/result/2/
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: result_result.exam_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/kizito/element_zone/apps/result/views.py", line 389, in get_context_data
+    total_marks = student_results.aggregate(total_marks=Sum('average'))['total_marks'] or 0
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/models/query.py", line 592, in aggregate
+    return self.query.chain().get_aggregation(self.db, kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/models/sql/query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: result_result.exam_id
+ERROR 2024-04-22 16:00:33,028 "GET /result/single/class/result/2/ HTTP/1.1" 500 143979
+WARNING 2024-04-22 16:00:33,205 Not Found: /favicon.ico
+INFO 2024-04-22 16:01:07,009 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 16:01:07,070 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 16:01:07,552 Not Found: /favicon.ico
+INFO 2024-04-22 16:01:09,803 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 16:01:09,832 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:01:14,825 "POST /result/class/ HTTP/1.1" 302 0
+ERROR 2024-04-22 16:01:14,896 Internal Server Error: /result/class/results/2/
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: result_result.exam_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/kizito/element_zone/apps/result/views.py", line 301, in get_context_data
+    total_marks = student_results.aggregate(total_marks=Sum('average'))['total_marks'] or 0
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/models/query.py", line 592, in aggregate
+    return self.query.chain().get_aggregation(self.db, kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/models/sql/query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: result_result.exam_id
+ERROR 2024-04-22 16:01:14,896 "GET /result/class/results/2/ HTTP/1.1" 500 143842
+WARNING 2024-04-22 16:01:15,071 Not Found: /favicon.ico
+INFO 2024-04-22 16:03:56,627 Watching for file changes with StatReloader
+INFO 2024-04-22 16:04:02,862 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 16:04:02,927 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:04:11,592 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 16:04:11,656 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:04:13,488 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 16:04:13,653 "GET /result/single/class/result/1/ HTTP/1.1" 200 15069
+WARNING 2024-04-22 16:04:13,753 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:04:22,375 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 16:04:22,556 "GET /result/single/class/result/2/ HTTP/1.1" 200 17384
+WARNING 2024-04-22 16:04:22,648 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:04:36,547 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 16:04:36,606 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 16:04:37,313 Not Found: /favicon.ico
+INFO 2024-04-22 16:04:40,488 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 16:04:40,555 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:04:47,074 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 16:04:47,256 "GET /result/class/results/2/ HTTP/1.1" 200 18242
+WARNING 2024-04-22 16:04:47,357 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:05:02,062 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 16:05:02,127 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 16:05:02,820 Not Found: /favicon.ico
+INFO 2024-04-22 16:05:06,926 "GET /finance/list/ HTTP/1.1" 200 16305
+WARNING 2024-04-22 16:05:06,988 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:05:09,910 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 16:05:09,977 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:05:15,920 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 16:05:15,970 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 16:05:21,691 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 16:05:21,876 "GET /result/edit-results/ HTTP/1.1" 200 25192
+WARNING 2024-04-22 16:05:21,979 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:38:46,913 Watching for file changes with StatReloader
+INFO 2024-04-22 19:38:57,928 "GET / HTTP/1.1" 302 0
+INFO 2024-04-22 19:38:58,114 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-22 19:38:58,152 "GET /static/dist/img/lake.png HTTP/1.1" 200 211327
+INFO 2024-04-22 19:38:58,159 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2024-04-22 19:38:58,562 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2024-04-22 19:38:58,722 Not Found: /favicon.ico
+INFO 2024-04-22 19:39:02,486 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-22 19:39:02,650 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 19:39:02,721 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:39:08,133 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 19:39:08,197 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:39:16,410 "GET /result/edit-results/ HTTP/1.1" 200 25192
+WARNING 2024-04-22 19:39:16,470 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:39:26,773 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-22 19:39:26,832 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:39:34,077 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 19:39:34,140 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:39:38,010 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 19:39:38,199 "GET /result/class/results/1/ HTTP/1.1" 200 15675
+WARNING 2024-04-22 19:39:38,254 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:39:48,793 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 19:39:48,974 "GET /result/class/results/2/ HTTP/1.1" 200 21548
+WARNING 2024-04-22 19:39:49,074 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:40:06,526 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 19:40:06,593 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:40:12,247 "GET /result/edit-results/ HTTP/1.1" 200 25192
+WARNING 2024-04-22 19:40:12,316 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:40:19,972 "GET /finance/list/ HTTP/1.1" 200 16305
+WARNING 2024-04-22 19:40:20,030 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:40:23,698 "GET /event/ HTTP/1.1" 200 14214
+WARNING 2024-04-22 19:40:23,761 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:42:14,440 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 19:42:14,489 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:42:19,758 "GET /result/edit-results/ HTTP/1.1" 200 25192
+WARNING 2024-04-22 19:42:19,817 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:42:25,364 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 19:42:25,420 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:42:32,396 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 19:42:32,442 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:42:36,543 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 19:42:36,749 "GET /result/edit-results/ HTTP/1.1" 200 25192
+WARNING 2024-04-22 19:42:36,805 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:53:56,609 Watching for file changes with StatReloader
+INFO 2024-04-22 19:54:01,445 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 19:54:01,505 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:54:10,151 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 19:54:10,214 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:54:15,905 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 19:54:15,961 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:54:22,435 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 19:54:22,608 "GET /result/edit-results/ HTTP/1.1" 200 26726
+WARNING 2024-04-22 19:54:22,719 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:56:31,546 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-04-22 19:56:31,736 "GET /result/edit-results/ HTTP/1.1" 200 27177
+WARNING 2024-04-22 19:56:31,842 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:56:49,362 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 19:56:49,397 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:56:54,332 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 19:56:54,572 "GET /result/single/class/result/2/ HTTP/1.1" 200 19270
+WARNING 2024-04-22 19:56:54,631 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:57:09,848 "GET /result/single/student/results/13/ HTTP/1.1" 200 14805
+WARNING 2024-04-22 19:57:09,904 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:57:12,626 "GET /result/student/13/ HTTP/1.1" 200 18372
+WARNING 2024-04-22 19:57:12,675 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:58:36,750 "GET /event/ HTTP/1.1" 200 14214
+WARNING 2024-04-22 19:58:36,807 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:58:39,527 "GET /event/create/ HTTP/1.1" 200 14257
+WARNING 2024-04-22 19:58:39,549 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:58:43,723 "GET /non_staffs/non/list/ HTTP/1.1" 200 13874
+WARNING 2024-04-22 19:58:43,750 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:58:46,378 "GET /finance/invoices/ HTTP/1.1" 200 16735
+WARNING 2024-04-22 19:58:46,432 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:58:49,346 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-22 19:58:49,374 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:59:10,080 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 19:59:10,138 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:59:14,425 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 19:59:14,647 "GET /result/class/results/2/ HTTP/1.1" 200 21588
+WARNING 2024-04-22 19:59:14,705 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:59:37,698 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-22 19:59:37,756 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:59:40,723 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 19:59:40,760 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:59:44,829 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 19:59:44,877 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 19:59:50,963 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 19:59:51,144 "GET /result/edit-results/ HTTP/1.1" 200 38342
+WARNING 2024-04-22 19:59:51,201 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:02:13,620 "POST /result/edit-results/ HTTP/1.1" 200 38650
+WARNING 2024-04-22 20:02:13,666 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:02:23,850 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 20:02:23,921 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:02:29,415 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:02:29,588 "GET /result/class/results/2/ HTTP/1.1" 200 24916
+WARNING 2024-04-22 20:02:29,685 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:03:06,168 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 20:03:06,230 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:03:10,149 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 20:03:10,196 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:03:14,461 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:03:14,642 "GET /result/edit-results/ HTTP/1.1" 200 38342
+WARNING 2024-04-22 20:03:14,672 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:05:54,389 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:05:54,570 "GET /result/edit-results/ HTTP/1.1" 200 32971
+WARNING 2024-04-22 20:05:54,625 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:06:12,056 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 20:06:12,117 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:06:16,029 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 20:06:16,203 "GET /result/single/class/result/2/ HTTP/1.1" 200 20210
+WARNING 2024-04-22 20:06:16,253 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:07:24,992 "GET /result/single/student/results/13/ HTTP/1.1" 200 15111
+WARNING 2024-04-22 20:07:25,050 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:07:33,640 "GET /result/student/13/ HTTP/1.1" 200 18703
+WARNING 2024-04-22 20:07:33,698 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:08:30,920 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 20:08:30,980 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:08:40,327 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 20:08:40,385 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:08:56,642 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:08:56,815 "GET /result/class/results/2/ HTTP/1.1" 200 23258
+WARNING 2024-04-22 20:08:56,911 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:12:32,379 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 20:12:32,441 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:12:38,946 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 20:12:38,985 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:12:43,272 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:12:43,445 "GET /result/edit-results/ HTTP/1.1" 200 38496
+WARNING 2024-04-22 20:12:43,486 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:12:53,458 "GET /result/edit-results/?class_select=&subject_select=4&student_name= HTTP/1.1" 200 21196
+WARNING 2024-04-22 20:12:53,513 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:13:43,724 "POST /result/edit-results/?class_select=&subject_select=4&student_name= HTTP/1.1" 302 0
+INFO 2024-04-22 20:13:43,913 "GET /result/edit-results/ HTTP/1.1" 200 38792
+WARNING 2024-04-22 20:13:43,971 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:13:59,825 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 20:13:59,883 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:14:05,208 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:14:05,381 "GET /result/class/results/2/ HTTP/1.1" 200 24932
+WARNING 2024-04-22 20:14:05,480 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:17:29,669 "GET /result/single/student/results/17/ HTTP/1.1" 200 15406
+WARNING 2024-04-22 20:17:29,729 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:17:36,168 "GET /result/student/17/ HTTP/1.1" 200 18974
+WARNING 2024-04-22 20:17:36,220 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:19:08,346 "GET /result/single/student/results/13/ HTTP/1.1" 200 15416
+WARNING 2024-04-22 20:19:08,386 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:19:26,978 "GET /result/student/13/ HTTP/1.1" 200 18984
+WARNING 2024-04-22 20:19:27,032 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:22:28,766 "GET /result/single/student/results/14/ HTTP/1.1" 200 15411
+WARNING 2024-04-22 20:22:28,822 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:22:31,651 "GET /result/student/14/ HTTP/1.1" 200 18978
+WARNING 2024-04-22 20:22:31,730 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:23:08,180 "GET /result/single/student/results/11/ HTTP/1.1" 200 15413
+WARNING 2024-04-22 20:23:08,237 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:23:11,791 "GET /result/student/11/ HTTP/1.1" 200 18981
+WARNING 2024-04-22 20:23:11,838 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:25:44,557 "GET /result/edit-results/ HTTP/1.1" 200 38649
+INFO 2024-04-22 20:26:10,210 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:26:10,391 "GET /result/edit-results/ HTTP/1.1" 200 38792
+WARNING 2024-04-22 20:26:10,447 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:26:49,994 "GET /event/ HTTP/1.1" 200 14214
+WARNING 2024-04-22 20:26:50,052 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:26:52,707 "GET /event/create/ HTTP/1.1" 200 14257
+WARNING 2024-04-22 20:26:52,761 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:26:57,498 "GET /finance/list/ HTTP/1.1" 200 16305
+WARNING 2024-04-22 20:26:57,559 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:27:04,821 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-22 20:27:04,868 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:27:15,789 "GET /expenditures/categories/create/ HTTP/1.1" 200 14264
+WARNING 2024-04-22 20:27:15,845 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:27:23,783 "GET /finance/list/ HTTP/1.1" 200 16305
+WARNING 2024-04-22 20:27:23,842 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:27:25,884 "GET /finance/1/detail/ HTTP/1.1" 200 15451
+WARNING 2024-04-22 20:27:25,943 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:27:32,197 "GET /finance/1/update/ HTTP/1.1" 200 22178
+WARNING 2024-04-22 20:27:32,253 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:28:05,309 "POST /finance/1/update/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:28:05,457 "GET /finance/1/detail/ HTTP/1.1" 200 15565
+WARNING 2024-04-22 20:28:05,556 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:28:31,565 "GET /finance/create/ HTTP/1.1" 200 18505
+WARNING 2024-04-22 20:28:31,623 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:28:40,444 "GET /finance/create/ HTTP/1.1" 200 18505
+WARNING 2024-04-22 20:28:40,506 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:29:33,231 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:29:33,412 "GET /finance/list HTTP/1.1" 301 0
+INFO 2024-04-22 20:29:33,586 "GET /finance/list/ HTTP/1.1" 200 16767
+WARNING 2024-04-22 20:29:33,646 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:29:44,996 "GET /finance/1/detail/ HTTP/1.1" 200 15565
+WARNING 2024-04-22 20:29:45,050 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:29:49,415 "GET /finance/1/update/ HTTP/1.1" 200 22683
+WARNING 2024-04-22 20:29:49,467 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:30:13,908 "POST /finance/1/update/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:30:14,097 "GET /finance/1/detail/ HTTP/1.1" 200 15565
+WARNING 2024-04-22 20:30:14,198 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:30:23,784 "GET /finance/list/ HTTP/1.1" 200 16767
+WARNING 2024-04-22 20:30:23,838 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:30:41,204 "GET /finance/create/ HTTP/1.1" 200 18505
+WARNING 2024-04-22 20:30:41,265 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:31:11,230 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:31:11,387 "GET /finance/list HTTP/1.1" 301 0
+INFO 2024-04-22 20:31:11,568 "GET /finance/list/ HTTP/1.1" 200 17245
+WARNING 2024-04-22 20:31:11,627 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:31:42,072 "GET /event/create/ HTTP/1.1" 200 14257
+WARNING 2024-04-22 20:31:42,132 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:31:52,480 "GET /event/create/ HTTP/1.1" 200 14257
+WARNING 2024-04-22 20:31:52,530 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:31:56,417 "GET /finance/list/ HTTP/1.1" 200 17245
+WARNING 2024-04-22 20:31:56,478 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:36:31,134 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 20:36:31,198 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:36:35,042 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:36:35,207 "GET /result/class/results/2/ HTTP/1.1" 200 25285
+WARNING 2024-04-22 20:36:35,289 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 20:36:35,842 Not Found: /favicon.ico
+WARNING 2024-04-22 20:40:44,079 Not Found: /favicon.ico
+INFO 2024-04-22 20:40:45,522 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:40:45,810 "GET /result/class/results/2/ HTTP/1.1" 200 24476
+WARNING 2024-04-22 20:40:45,911 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:44:34,909 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:44:35,074 "GET /result/class/results/2/ HTTP/1.1" 200 24915
+WARNING 2024-04-22 20:44:35,176 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:45:55,014 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:45:55,213 "GET /result/class/results/2/ HTTP/1.1" 200 24932
+WARNING 2024-04-22 20:45:55,316 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 20:51:30,724 Not Found: /favicon.ico
+INFO 2024-04-22 20:51:32,655 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:51:32,828 "GET /result/class/results/2/ HTTP/1.1" 200 24022
+WARNING 2024-04-22 20:51:32,930 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:52:04,666 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 20:52:04,730 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 20:52:05,334 Not Found: /favicon.ico
+INFO 2024-04-22 20:52:08,056 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 20:52:08,221 "GET /result/single/class/result/2/ HTTP/1.1" 200 21155
+WARNING 2024-04-22 20:52:08,317 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 20:52:09,053 Not Found: /favicon.ico
+INFO 2024-04-22 20:54:59,705 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 20:54:59,768 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 20:55:00,735 Not Found: /favicon.ico
+INFO 2024-04-22 20:55:03,646 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:55:03,819 "GET /result/class/results/2/ HTTP/1.1" 200 24946
+WARNING 2024-04-22 20:55:03,920 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:55:18,615 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-22 20:55:18,675 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 20:55:22,638 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-22 20:55:22,802 "GET /result/single/class/result/2/ HTTP/1.1" 200 21155
+WARNING 2024-04-22 20:55:22,857 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 20:55:23,526 Not Found: /favicon.ico
+WARNING 2024-04-22 20:57:32,340 Not Found: /favicon.ico
+INFO 2024-04-22 20:57:39,964 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 20:57:40,023 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 20:57:40,730 Not Found: /favicon.ico
+INFO 2024-04-22 20:57:44,471 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 20:57:44,645 "GET /result/class/results/2/ HTTP/1.1" 200 24946
+WARNING 2024-04-22 20:57:44,743 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:00:47,312 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:00:47,485 "GET /result/class/results/2/ HTTP/1.1" 200 25240
+WARNING 2024-04-22 21:00:47,585 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:05:30,434 /home/kizito/element_zone/apps/result/views.py changed, reloading.
+INFO 2024-04-22 21:05:30,886 Watching for file changes with StatReloader
+INFO 2024-04-22 21:05:38,708 /home/kizito/element_zone/apps/result/views.py changed, reloading.
+INFO 2024-04-22 21:05:39,158 Watching for file changes with StatReloader
+INFO 2024-04-22 21:05:50,628 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:05:50,809 "GET /result/class/results/2/ HTTP/1.1" 200 25240
+WARNING 2024-04-22 21:05:50,917 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:06:02,901 "GET /finance/list/ HTTP/1.1" 200 17245
+WARNING 2024-04-22 21:06:02,965 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:06:06,380 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 21:06:06,436 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:06:06,997 Not Found: /favicon.ico
+INFO 2024-04-22 21:06:09,953 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:06:10,130 "GET /result/class/results/2/ HTTP/1.1" 200 25240
+WARNING 2024-04-22 21:06:10,203 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:08:13,042 /home/kizito/element_zone/apps/result/views.py changed, reloading.
+INFO 2024-04-22 21:08:13,608 Watching for file changes with StatReloader
+INFO 2024-04-22 21:09:00,458 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 21:09:00,509 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:09:01,019 Not Found: /favicon.ico
+INFO 2024-04-22 21:09:10,852 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 21:09:10,923 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:09:17,096 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 21:09:17,148 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:09:17,772 Not Found: /favicon.ico
+INFO 2024-04-22 21:09:29,666 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:09:29,847 "GET /result/edit-results/ HTTP/1.1" 200 38649
+WARNING 2024-04-22 21:09:29,880 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:09:30,400 Not Found: /favicon.ico
+INFO 2024-04-22 21:09:47,984 "GET /result/edit-results/?class_select=2&subject_select=&student_name= HTTP/1.1" 200 38649
+WARNING 2024-04-22 21:09:48,042 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:09:48,536 Not Found: /favicon.ico
+INFO 2024-04-22 21:10:42,814 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:10:42,994 "GET /result/edit-results/ HTTP/1.1" 200 38649
+WARNING 2024-04-22 21:10:43,049 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:11:27,323 "GET /term/list/ HTTP/1.1" 200 15810
+WARNING 2024-04-22 21:11:27,374 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:11:27,949 Not Found: /favicon.ico
+INFO 2024-04-22 21:11:30,468 "GET /term/2/update/ HTTP/1.1" 200 14064
+WARNING 2024-04-22 21:11:30,534 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:11:33,903 "POST /term/2/update/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:11:34,092 "GET /term/list/ HTTP/1.1" 200 15951
+WARNING 2024-04-22 21:11:34,206 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:11:34,883 Not Found: /favicon.ico
+INFO 2024-04-22 21:11:40,268 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 21:11:40,322 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:11:46,048 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 21:11:46,101 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:11:46,946 Not Found: /favicon.ico
+INFO 2024-04-22 21:11:58,984 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:11:59,141 "GET /result/edit-results/ HTTP/1.1" 200 15591
+WARNING 2024-04-22 21:11:59,249 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:11:59,800 Not Found: /favicon.ico
+WARNING 2024-04-22 21:12:03,214 Not Found: /favicon.ico
+INFO 2024-04-22 21:12:06,611 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:12:06,793 "GET /result/edit-results/ HTTP/1.1" 200 15591
+WARNING 2024-04-22 21:12:06,873 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:12:07,385 Not Found: /favicon.ico
+INFO 2024-04-22 21:12:16,473 "GET /result/create/ HTTP/1.1" 200 18865
+INFO 2024-04-22 21:12:16,802 "GET /term/2/update/ HTTP/1.1" 200 14072
+INFO 2024-04-22 21:12:17,058 "GET /term/list/ HTTP/1.1" 200 15810
+INFO 2024-04-22 21:12:20,335 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-22 21:12:20,387 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:12:20,940 Not Found: /favicon.ico
+INFO 2024-04-22 21:12:25,120 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-22 21:12:25,179 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:12:31,930 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-22 21:12:31,981 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:12:32,597 Not Found: /favicon.ico
+INFO 2024-04-22 21:12:39,391 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:12:39,532 "GET /result/edit-results/ HTTP/1.1" 200 15591
+WARNING 2024-04-22 21:12:39,631 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:12:40,289 Not Found: /favicon.ico
+INFO 2024-04-22 21:12:56,474 "GET /result/edit-results/ HTTP/1.1" 200 15591
+WARNING 2024-04-22 21:12:56,529 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:13:05,205 "GET /result/edit-results/?class_select=&subject_select=3&student_name= HTTP/1.1" 200 15591
+WARNING 2024-04-22 21:13:05,263 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:13:05,764 Not Found: /favicon.ico
+INFO 2024-04-22 21:13:07,892 "GET /result/create/ HTTP/1.1" 200 18865
+INFO 2024-04-22 21:13:22,649 "POST /result/create/ HTTP/1.1" 200 15871
+WARNING 2024-04-22 21:13:22,700 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:13:35,007 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:13:35,157 "GET /result/edit-results/ HTTP/1.1" 200 15591
+WARNING 2024-04-22 21:13:35,253 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:13:35,898 Not Found: /favicon.ico
+INFO 2024-04-22 21:13:44,060 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:13:44,234 "GET /result/edit-results/ HTTP/1.1" 200 22882
+WARNING 2024-04-22 21:13:44,331 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:13:45,107 Not Found: /favicon.ico
+INFO 2024-04-22 21:17:47,789 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:17:47,954 "GET /result/edit-results/ HTTP/1.1" 200 23223
+WARNING 2024-04-22 21:17:48,048 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:17:49,363 Not Found: /favicon.ico
+INFO 2024-04-22 21:17:56,619 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-22 21:17:56,675 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-22 21:18:01,558 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:18:01,748 "GET /result/class/results/2/ HTTP/1.1" 200 19502
+WARNING 2024-04-22 21:18:01,807 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:18:02,539 Not Found: /favicon.ico
+INFO 2024-04-22 21:18:14,593 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-22 21:18:14,774 "GET /result/class/results/3/ HTTP/1.1" 200 22503
+WARNING 2024-04-22 21:18:14,870 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-22 21:19:12,921 Not Found: /favicon.ico
+INFO 2024-04-23 12:43:35,495 Watching for file changes with StatReloader
+INFO 2024-04-23 12:43:43,908 "GET / HTTP/1.1" 302 0
+INFO 2024-04-23 12:43:44,113 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-23 12:43:44,465 "GET /static/dist/img/lake.png HTTP/1.1" 200 211327
+INFO 2024-04-23 12:43:49,907 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:43:50,137 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-23 12:43:50,822 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:44:02,881 "GET /exam/list/ HTTP/1.1" 200 16482
+WARNING 2024-04-23 12:44:02,938 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:44:09,641 "GET /exam/4/update/ HTTP/1.1" 200 14043
+WARNING 2024-04-23 12:44:09,704 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:44:13,771 "POST /exam/4/update/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:44:13,961 "GET /exam/list/ HTTP/1.1" 200 16628
+WARNING 2024-04-23 12:44:14,021 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:44:20,439 "GET /result/create/ HTTP/1.1" 200 18865
+WARNING 2024-04-23 12:44:20,490 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:44:26,177 "POST /result/create/ HTTP/1.1" 200 15874
+WARNING 2024-04-23 12:44:26,226 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:44:32,384 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:44:32,648 "GET /result/edit-results/ HTTP/1.1" 200 21168
+WARNING 2024-04-23 12:44:32,757 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:45:16,691 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:45:16,884 "GET /result/edit-results/ HTTP/1.1" 200 21465
+WARNING 2024-04-23 12:45:16,947 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:45:28,958 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-23 12:45:29,018 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:45:33,335 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:45:33,532 "GET /result/class/results/2/ HTTP/1.1" 200 20951
+WARNING 2024-04-23 12:45:33,573 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:46:19,134 "GET /expenditures/invoices/ HTTP/1.1" 200 15342
+WARNING 2024-04-23 12:46:19,202 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:46:21,979 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-23 12:46:22,036 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:46:26,513 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-23 12:46:26,564 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:46:34,047 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:46:34,228 "GET /result/class/results/3/ HTTP/1.1" 200 20748
+WARNING 2024-04-23 12:46:34,324 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+ERROR 2024-04-23 12:46:50,253 Internal Server Error: /result/single/student/results/6/
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/kizito/element_zone/apps/result/views.py", line 524, in get_context_data
+    sorted_students = sorted(overall_averages, key=lambda x: x[1], reverse=True)
+TypeError: '<' not supported between instances of 'NoneType' and 'NoneType'
+ERROR 2024-04-23 12:46:50,254 "GET /result/single/student/results/6/ HTTP/1.1" 500 84447
+ERROR 2024-04-23 12:46:56,842 Internal Server Error: /result/single/student/results/5/
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/kizito/element_zone/apps/result/views.py", line 524, in get_context_data
+    sorted_students = sorted(overall_averages, key=lambda x: x[1], reverse=True)
+TypeError: '<' not supported between instances of 'NoneType' and 'NoneType'
+ERROR 2024-04-23 12:46:56,843 "GET /result/single/student/results/5/ HTTP/1.1" 500 84453
+INFO 2024-04-23 12:47:05,594 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-23 12:47:05,647 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:47:09,405 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:47:09,591 "GET /result/class/results/2/ HTTP/1.1" 200 20951
+WARNING 2024-04-23 12:47:09,621 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:47:11,693 "GET /result/single/student/results/15/ HTTP/1.1" 200 14504
+WARNING 2024-04-23 12:47:11,738 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:47:25,757 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-23 12:47:25,818 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:47:32,863 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-23 12:47:32,920 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:47:37,273 "GET /result/class/ HTTP/1.1" 200 13764
+WARNING 2024-04-23 12:47:37,327 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:47:42,830 "GET /result/single/class/list HTTP/1.1" 200 13782
+WARNING 2024-04-23 12:47:42,865 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:47:46,432 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-23 12:47:46,671 "GET /result/single/class/result/2/ HTTP/1.1" 200 18341
+WARNING 2024-04-23 12:47:46,729 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:51:45,915 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-23 12:51:46,105 "GET /result/single/class/result/2/ HTTP/1.1" 200 18841
+WARNING 2024-04-23 12:51:46,226 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:53:07,492 "GET /expenditures/expenditures/ HTTP/1.1" 200 19130
+WARNING 2024-04-23 12:53:07,563 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:53:09,924 "GET /expenditures/categories/ HTTP/1.1" 200 15756
+WARNING 2024-04-23 12:53:09,987 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:53:25,142 "GET /subject/list/ HTTP/1.1" 200 15891
+WARNING 2024-04-23 12:53:25,205 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:53:28,893 "GET /staff/list/ HTTP/1.1" 200 14152
+WARNING 2024-04-23 12:53:28,959 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:53:34,129 "GET /student/list HTTP/1.1" 200 20707
+WARNING 2024-04-23 12:53:34,185 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:53:37,896 "GET /staff/list/ HTTP/1.1" 200 14152
+WARNING 2024-04-23 12:53:37,935 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:53:45,752 "GET /non_staffs/non/list/ HTTP/1.1" 200 13874
+WARNING 2024-04-23 12:53:45,782 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:55:01,322 Watching for file changes with StatReloader
+INFO 2024-04-23 12:55:06,040 "GET / HTTP/1.1" 200 13205
+WARNING 2024-04-23 12:55:06,116 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:55:13,715 "GET /staff/list/ HTTP/1.1" 200 14152
+WARNING 2024-04-23 12:55:13,794 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:55:16,831 "GET /staff/1/ HTTP/1.1" 200 14797
+WARNING 2024-04-23 12:55:16,889 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:55:20,657 "GET /non_staffs/non/list/ HTTP/1.1" 200 13874
+WARNING 2024-04-23 12:55:20,714 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:55:27,268 "GET /non_staffs/1/ HTTP/1.1" 200 14848
+WARNING 2024-04-23 12:55:27,330 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 12:55:34,852 "GET /staff/list/ HTTP/1.1" 200 14152
+WARNING 2024-04-23 12:55:34,912 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:15:59,619 Watching for file changes with StatReloader
+INFO 2024-04-23 13:28:29,543 Watching for file changes with StatReloader
+ERROR 2024-04-23 13:28:33,892 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'non-staff-list' not found. 'non-staff-list' is not a valid view function or pattern name.
+ERROR 2024-04-23 13:28:33,893 "GET / HTTP/1.1" 500 143186
+INFO 2024-04-23 13:30:00,993 "GET / HTTP/1.1" 200 12724
+WARNING 2024-04-23 13:30:01,035 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:30:05,206 "GET / HTTP/1.1" 200 12724
+WARNING 2024-04-23 13:30:05,263 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 13:30:05,823 Not Found: /favicon.ico
+INFO 2024-04-23 13:30:10,903 "GET /student/list HTTP/1.1" 200 20226
+WARNING 2024-04-23 13:30:10,966 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:30:19,255 "GET / HTTP/1.1" 200 12724
+WARNING 2024-04-23 13:30:19,315 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:30:45,283 "GET / HTTP/1.1" 200 12584
+WARNING 2024-04-23 13:30:45,336 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:30:48,161 "GET / HTTP/1.1" 200 12584
+WARNING 2024-04-23 13:30:48,215 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:30:49,999 "GET /student/list HTTP/1.1" 200 20086
+WARNING 2024-04-23 13:30:50,049 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:30:54,320 "GET / HTTP/1.1" 200 12584
+WARNING 2024-04-23 13:30:54,367 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:05,128 "GET / HTTP/1.1" 200 12618
+WARNING 2024-04-23 13:35:05,186 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 13:35:05,589 Not Found: /favicon.ico
+INFO 2024-04-23 13:35:10,107 "GET /student/list HTTP/1.1" 200 20120
+WARNING 2024-04-23 13:35:10,174 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:13,108 "GET /student/16/ HTTP/1.1" 200 14616
+WARNING 2024-04-23 13:35:13,162 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:13,166 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2024-04-23 13:35:16,052 "GET /student/delete/16/ HTTP/1.1" 200 12930
+WARNING 2024-04-23 13:35:16,120 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:18,747 "POST /student/delete/16/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:35:18,912 "GET /student/list HTTP/1.1" 200 19853
+WARNING 2024-04-23 13:35:18,979 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:22,977 "GET /student/17/ HTTP/1.1" 200 14610
+WARNING 2024-04-23 13:35:23,017 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:26,595 "GET /student/delete/17/ HTTP/1.1" 200 12926
+WARNING 2024-04-23 13:35:26,623 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:28,855 "POST /student/delete/17/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:35:29,020 "GET /student/list HTTP/1.1" 200 19588
+WARNING 2024-04-23 13:35:29,120 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:31,609 "GET /student/11/ HTTP/1.1" 200 14614
+WARNING 2024-04-23 13:35:31,648 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:34,057 "GET /student/delete/11/ HTTP/1.1" 200 12928
+WARNING 2024-04-23 13:35:34,117 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:35,995 "POST /student/delete/11/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:35:36,159 "GET /student/list HTTP/1.1" 200 19321
+WARNING 2024-04-23 13:35:36,263 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:44,206 "GET /updations/delete-students/ HTTP/1.1" 200 13350
+WARNING 2024-04-23 13:35:44,264 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:49,862 "POST /updations/delete-students/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:35:49,994 "GET /updations/delete-students/success/ HTTP/1.1" 200 12971
+WARNING 2024-04-23 13:35:50,064 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:35:55,361 "GET /updations/delete-students/ HTTP/1.1" 200 13350
+WARNING 2024-04-23 13:35:55,417 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:01,685 "POST /updations/delete-students/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:36:01,849 "GET /updations/delete-students/success/ HTTP/1.1" 200 12971
+WARNING 2024-04-23 13:36:01,947 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:04,949 "GET /updations/delete-students/ HTTP/1.1" 200 13350
+WARNING 2024-04-23 13:36:05,008 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:09,509 "POST /updations/delete-students/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:36:09,690 "GET /updations/delete-students/success/ HTTP/1.1" 200 12971
+WARNING 2024-04-23 13:36:09,750 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:12,691 "GET /updations/delete-students/ HTTP/1.1" 200 13350
+WARNING 2024-04-23 13:36:12,748 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:14,909 "GET /student/list HTTP/1.1" 200 15383
+WARNING 2024-04-23 13:36:14,966 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:34,300 "GET /result/class/ HTTP/1.1" 200 13177
+WARNING 2024-04-23 13:36:34,353 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:36,658 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:36:36,814 "GET /result/class/results/1/ HTTP/1.1" 200 14940
+WARNING 2024-04-23 13:36:36,875 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:43,476 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:36:43,641 "GET /result/class/results/2/ HTTP/1.1" 200 14940
+WARNING 2024-04-23 13:36:43,745 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:50,542 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:36:50,723 "GET /result/class/results/3/ HTTP/1.1" 200 14940
+WARNING 2024-04-23 13:36:50,821 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:36:59,033 "GET /staff/list/ HTTP/1.1" 200 13565
+WARNING 2024-04-23 13:36:59,102 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:04,615 "GET /staff/1/ HTTP/1.1" 200 14210
+WARNING 2024-04-23 13:37:04,672 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:07,731 "GET /staff/1/update/ HTTP/1.1" 200 16477
+WARNING 2024-04-23 13:37:07,796 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:17,905 "POST /staff/1/update/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:37:18,070 "GET /staff/1/ HTTP/1.1" 200 14353
+WARNING 2024-04-23 13:37:18,171 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:28,005 "GET /staff/list/ HTTP/1.1" 200 13577
+WARNING 2024-04-23 13:37:28,070 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:35,954 "GET /student/list HTTP/1.1" 200 15383
+WARNING 2024-04-23 13:37:35,985 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:40,231 "GET /staff/list/ HTTP/1.1" 200 13577
+WARNING 2024-04-23 13:37:40,291 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:43,768 "GET /staff/2/ HTTP/1.1" 200 14230
+WARNING 2024-04-23 13:37:43,818 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:46,093 "GET /staff/2/delete/ HTTP/1.1" 200 12921
+WARNING 2024-04-23 13:37:46,150 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:48,171 "POST /staff/2/delete/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:37:48,352 "GET /staff/list/ HTTP/1.1" 200 13359
+WARNING 2024-04-23 13:37:48,413 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:50,216 "GET /staff/1/ HTTP/1.1" 200 14210
+WARNING 2024-04-23 13:37:50,276 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:52,285 "GET /staff/1/delete/ HTTP/1.1" 200 12915
+WARNING 2024-04-23 13:37:52,347 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:54,486 "POST /staff/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:37:54,659 "GET /staff/list/ HTTP/1.1" 200 13145
+WARNING 2024-04-23 13:37:54,759 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:56,556 "GET /staff/list/ HTTP/1.1" 200 13145
+WARNING 2024-04-23 13:37:56,609 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:37:58,732 "GET /event/create/ HTTP/1.1" 200 13670
+WARNING 2024-04-23 13:37:58,783 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:00,397 "GET /event/ HTTP/1.1" 200 13628
+WARNING 2024-04-23 13:38:00,453 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:03,943 "GET /event/2/ HTTP/1.1" 200 13313
+WARNING 2024-04-23 13:38:03,999 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:05,970 "GET /event/2/delete/ HTTP/1.1" 200 12948
+WARNING 2024-04-23 13:38:06,023 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:07,958 "POST /event/2/delete/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:38:08,147 "GET /event/ HTTP/1.1" 200 12549
+WARNING 2024-04-23 13:38:08,203 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:10,662 "GET /finance/list/ HTTP/1.1" 200 15236
+WARNING 2024-04-23 13:38:10,720 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:13,036 "GET /finance/invoices/ HTTP/1.1" 200 14295
+WARNING 2024-04-23 13:38:13,089 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:15,525 "GET /expenditures/categories/ HTTP/1.1" 200 15169
+WARNING 2024-04-23 13:38:15,591 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:20,963 "GET /expenditures/category/1/delete/ HTTP/1.1" 200 13004
+WARNING 2024-04-23 13:38:21,022 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:22,806 "POST /expenditures/category/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:38:22,988 "GET /expenditures/categories/ HTTP/1.1" 200 14728
+WARNING 2024-04-23 13:38:23,025 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:25,222 "GET /expenditures/invoices/ HTTP/1.1" 200 14746
+WARNING 2024-04-23 13:38:25,276 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:30,053 "GET /expenditures/expenditures/invoices/1/ HTTP/1.1" 200 13007
+WARNING 2024-04-23 13:38:30,106 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:31,882 "GET /expenditures/expenditures/invoices/1/delete/ HTTP/1.1" 200 13137
+WARNING 2024-04-23 13:38:31,906 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:33,796 "POST /expenditures/expenditures/invoices/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:38:33,978 "GET /expenditures/invoices/ HTTP/1.1" 200 14394
+WARNING 2024-04-23 13:38:34,033 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:38:53,295 "GET /school_properties/properties/ HTTP/1.1" 200 17441
+WARNING 2024-04-23 13:38:53,352 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:39:53,620 "GET /school_properties/properties/3/ HTTP/1.1" 200 13706
+WARNING 2024-04-23 13:39:53,680 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:40:10,596 "GET /school_properties/properties/ HTTP/1.1" 200 17441
+WARNING 2024-04-23 13:40:10,658 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:40:25,206 "GET /school_properties/properties/2/ HTTP/1.1" 200 13657
+WARNING 2024-04-23 13:40:25,268 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:44:28,457 /home/kizito/element_zone/expenditures/views.py changed, reloading.
+INFO 2024-04-23 13:44:28,911 Watching for file changes with StatReloader
+INFO 2024-04-23 13:44:33,921 "GET / HTTP/1.1" 200 12618
+WARNING 2024-04-23 13:44:33,979 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:44:37,404 "GET /expenditures/invoices/ HTTP/1.1" 200 14394
+WARNING 2024-04-23 13:44:37,462 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:44:40,393 "GET /expenditures/expenditures/ HTTP/1.1" 200 16104
+WARNING 2024-04-23 13:44:40,457 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:44:42,431 "GET /expenditures/categories/ HTTP/1.1" 200 14728
+WARNING 2024-04-23 13:44:42,485 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:44:50,007 "GET /school_properties/properties/ HTTP/1.1" 200 17765
+WARNING 2024-04-23 13:44:50,042 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:45:01,524 "GET /school_properties/properties/1/ HTTP/1.1" 200 13711
+WARNING 2024-04-23 13:45:01,582 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:45:12,176 "GET /school_properties/add-property/ HTTP/1.1" 200 13292
+WARNING 2024-04-23 13:45:12,244 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:45:30,908 "GET /class/list/ HTTP/1.1" 200 15033
+WARNING 2024-04-23 13:45:30,943 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:45:34,693 "GET /class/1/delete/ HTTP/1.1" 200 13319
+WARNING 2024-04-23 13:45:34,749 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:45:36,457 "POST /class/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:45:36,630 "GET /class/list/ HTTP/1.1" 200 14749
+WARNING 2024-04-23 13:45:36,735 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 13:45:37,437 Not Found: /favicon.ico
+INFO 2024-04-23 13:45:39,607 "GET /class/2/delete/ HTTP/1.1" 200 13317
+WARNING 2024-04-23 13:45:39,664 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:45:41,956 "POST /class/2/delete/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:45:42,129 "GET /class/list/ HTTP/1.1" 200 14466
+WARNING 2024-04-23 13:45:42,217 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:45:44,743 "GET /class/3/delete/ HTTP/1.1" 200 13323
+WARNING 2024-04-23 13:45:44,799 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:45:46,566 "POST /class/3/delete/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:45:46,705 "GET /class/list/ HTTP/1.1" 200 14180
+WARNING 2024-04-23 13:45:46,801 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:45:52,798 "GET /result/class/ HTTP/1.1" 200 13011
+WARNING 2024-04-23 13:45:52,834 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 13:45:53,366 Not Found: /favicon.ico
+WARNING 2024-04-23 13:45:57,546 Not Found: /favicon.ico
+INFO 2024-04-23 13:46:16,015 "POST /class/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:46:16,238 "GET /class/list/ HTTP/1.1" 200 14607
+WARNING 2024-04-23 13:46:16,331 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 13:46:17,053 Not Found: /favicon.ico
+INFO 2024-04-23 13:46:21,226 "GET /student/list HTTP/1.1" 200 15257
+WARNING 2024-04-23 13:46:21,285 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:46:23,204 "GET /student/create/ HTTP/1.1" 200 16905
+WARNING 2024-04-23 13:46:23,268 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:46:58,640 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:46:58,813 "GET /student/list HTTP/1.1" 200 15675
+WARNING 2024-04-23 13:46:58,915 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:47:01,063 "GET /student/18/ HTTP/1.1" 200 14627
+WARNING 2024-04-23 13:47:01,107 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:47:03,900 "GET /student/18/update/ HTTP/1.1" 200 16964
+WARNING 2024-04-23 13:47:03,966 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:47:34,645 "POST /student/18/update/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:47:34,825 "GET /student/18/ HTTP/1.1" 200 14782
+WARNING 2024-04-23 13:47:34,934 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:47:35,115 "GET /media/students/passports/1_CUopW0M.jpg HTTP/1.1" 200 1049934
+INFO 2024-04-23 13:47:49,790 "GET /finance/list/ HTTP/1.1" 200 15236
+WARNING 2024-04-23 13:47:49,857 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:47:52,032 "GET /finance/create/ HTTP/1.1" 200 16818
+WARNING 2024-04-23 13:47:52,087 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 13:47:52,592 Not Found: /favicon.ico
+INFO 2024-04-23 13:48:29,230 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:48:29,394 "GET /finance/list HTTP/1.1" 301 0
+INFO 2024-04-23 13:48:29,550 "GET /finance/list/ HTTP/1.1" 200 15708
+WARNING 2024-04-23 13:48:29,614 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:52:18,571 "GET /finance/list/ HTTP/1.1" 200 15770
+WARNING 2024-04-23 13:52:18,631 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:54:31,738 "GET /finance/list/ HTTP/1.1" 200 15779
+WARNING 2024-04-23 13:54:31,794 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:54:40,600 "GET /finance/create/ HTTP/1.1" 200 16818
+WARNING 2024-04-23 13:54:40,651 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 13:54:41,102 Not Found: /favicon.ico
+INFO 2024-04-23 13:55:07,262 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 13:55:07,460 "GET /finance/list HTTP/1.1" 301 0
+INFO 2024-04-23 13:55:07,625 "GET /finance/list/ HTTP/1.1" 200 16251
+WARNING 2024-04-23 13:55:07,683 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:55:14,938 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 14644
+WARNING 2024-04-23 13:55:14,994 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:55:31,189 "POST /finance/receipt/create?invoice=1 HTTP/1.1" 302 0
+INFO 2024-04-23 13:55:31,361 "GET /finance/list/ HTTP/1.1" 200 16255
+WARNING 2024-04-23 13:55:31,481 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:55:37,991 "GET /finance/2/detail/ HTTP/1.1" 200 14506
+WARNING 2024-04-23 13:55:38,043 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:55:42,979 "GET /finance/1/detail/ HTTP/1.1" 200 14689
+WARNING 2024-04-23 13:55:43,043 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:55:57,342 "GET /staff/list/ HTTP/1.1" 200 13145
+WARNING 2024-04-23 13:55:57,400 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:55:59,394 "GET /event/create/ HTTP/1.1" 200 13670
+WARNING 2024-04-23 13:55:59,422 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:56:01,110 "GET /event/ HTTP/1.1" 200 12549
+WARNING 2024-04-23 13:56:01,176 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 13:56:01,959 Not Found: /favicon.ico
+INFO 2024-04-23 13:56:15,770 "GET /site-config HTTP/1.1" 200 14190
+WARNING 2024-04-23 13:56:15,835 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:57:33,922 "GET / HTTP/1.1" 200 12391
+WARNING 2024-04-23 13:57:33,994 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:57:45,705 "GET /student/list HTTP/1.1" 200 15302
+WARNING 2024-04-23 13:57:45,773 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 13:57:46,414 Not Found: /favicon.ico
+INFO 2024-04-23 13:57:47,395 "GET /staff/list/ HTTP/1.1" 200 12918
+WARNING 2024-04-23 13:57:47,465 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:57:51,778 "GET /finance/list/ HTTP/1.1" 200 16028
+WARNING 2024-04-23 13:57:51,843 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:57:54,546 "GET /finance/invoices/ HTTP/1.1" 200 14068
+WARNING 2024-04-23 13:57:54,605 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:57:58,327 "GET /finance/invoices/create/ HTTP/1.1" 200 15218
+WARNING 2024-04-23 13:57:58,350 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:58:05,488 "GET /staff/list/ HTTP/1.1" 200 12918
+WARNING 2024-04-23 13:58:05,549 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 13:58:07,458 "GET /staff/create/ HTTP/1.1" 200 16231
+WARNING 2024-04-23 13:58:07,513 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+ERROR 2024-04-23 13:58:49,346 Internal Server Error: /staff/create/
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+  File "/home/kizito/element_zone/apps/staffs/views.py", line 40, in form_valid
+    user.set_password('password')  # Set a default password
+AttributeError: 'Staff' object has no attribute 'set_password'
+ERROR 2024-04-23 13:58:49,347 "POST /staff/create/ HTTP/1.1" 500 95814
+INFO 2024-04-23 13:58:55,571 "GET /staff/create/ HTTP/1.1" 200 16231
+INFO 2024-04-23 13:59:59,318 "GET /staff/create/ HTTP/1.1" 200 16231
+WARNING 2024-04-23 13:59:59,389 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:00:09,293 "GET /staff/list/ HTTP/1.1" 200 12918
+WARNING 2024-04-23 14:00:09,334 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:00:10,053 "GET /staff/list/ HTTP/1.1" 200 12918
+WARNING 2024-04-23 14:00:10,114 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:13:37,733 Watching for file changes with StatReloader
+INFO 2024-04-23 14:13:54,834 "GET / HTTP/1.1" 200 12391
+WARNING 2024-04-23 14:13:54,892 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:13:57,472 "GET /student/list HTTP/1.1" 200 15302
+WARNING 2024-04-23 14:13:57,537 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:13:59,796 "GET /student/create/ HTTP/1.1" 200 16678
+WARNING 2024-04-23 14:13:59,847 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:14:07,150 "GET /staff/list/ HTTP/1.1" 200 12918
+WARNING 2024-04-23 14:14:07,207 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:14:09,063 "GET /staff/create/ HTTP/1.1" 200 16231
+WARNING 2024-04-23 14:14:09,122 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+ERROR 2024-04-23 14:14:37,484 Internal Server Error: /staff/create/
+Traceback (most recent call last):
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/kizito/zone/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+  File "/home/kizito/element_zone/apps/staffs/views.py", line 40, in form_valid
+    user.set_password('password')  # Set a default password
+AttributeError: 'Staff' object has no attribute 'set_password'
+ERROR 2024-04-23 14:14:37,485 "POST /staff/create/ HTTP/1.1" 500 95811
+INFO 2024-04-23 14:16:00,516 /home/kizito/element_zone/apps/staffs/views.py changed, reloading.
+INFO 2024-04-23 14:16:00,998 Watching for file changes with StatReloader
+INFO 2024-04-23 14:16:04,743 "GET /staff/create/ HTTP/1.1" 200 16231
+INFO 2024-04-23 14:16:06,983 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 14:16:07,190 "GET /staff/list/ HTTP/1.1" 200 13284
+WARNING 2024-04-23 14:16:07,297 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:17:01,542 "GET /staff/create/ HTTP/1.1" 200 16231
+WARNING 2024-04-23 14:17:01,600 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:17:35,514 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 14:17:35,679 "GET /staff/list/ HTTP/1.1" 200 13511
+WARNING 2024-04-23 14:17:35,769 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:19:02,774 "GET /expenditures/invoices/ HTTP/1.1" 200 14167
+WARNING 2024-04-23 14:19:02,835 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:19:06,120 "GET /finance/list/ HTTP/1.1" 200 16028
+WARNING 2024-04-23 14:19:06,156 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:19:09,097 "GET /finance/1/detail/ HTTP/1.1" 200 14462
+WARNING 2024-04-23 14:19:09,158 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:22:37,172 "GET /student/list HTTP/1.1" 200 15302
+WARNING 2024-04-23 14:22:37,238 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:22:49,974 "GET /staff/list/ HTTP/1.1" 200 13368
+WARNING 2024-04-23 14:22:50,032 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:22:52,842 "GET /finance/invoices/ HTTP/1.1" 200 14068
+WARNING 2024-04-23 14:22:52,876 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:22:54,846 "GET /finance/invoices/create/ HTTP/1.1" 200 15324
+WARNING 2024-04-23 14:22:54,907 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:23:31,316 "POST /finance/invoices/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 14:23:31,481 "GET /finance/invoices/ HTTP/1.1" 200 15921
+WARNING 2024-04-23 14:23:31,588 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:23:42,786 "GET /finance/invoices/create/ HTTP/1.1" 200 15324
+WARNING 2024-04-23 14:23:42,839 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:24:10,192 "POST /finance/invoices/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 14:24:10,357 "GET /finance/invoices/ HTTP/1.1" 200 16573
+WARNING 2024-04-23 14:24:10,474 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:24:24,637 "GET /finance/invoices/create/ HTTP/1.1" 200 15324
+WARNING 2024-04-23 14:24:24,693 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:24:58,087 "POST /finance/invoices/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 14:24:58,252 "GET /finance/invoices/ HTTP/1.1" 200 18632
+WARNING 2024-04-23 14:24:58,355 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:25:09,316 "GET /finance/invoices/create/ HTTP/1.1" 200 15324
+WARNING 2024-04-23 14:25:09,383 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:25:38,758 "POST /finance/invoices/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 14:25:38,931 "GET /finance/invoices/ HTTP/1.1" 200 19337
+WARNING 2024-04-23 14:25:39,039 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:25:56,311 "GET /finance/invoices/create/ HTTP/1.1" 200 15324
+WARNING 2024-04-23 14:25:56,382 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:26:25,199 "POST /finance/invoices/create/ HTTP/1.1" 302 0
+INFO 2024-04-23 14:26:25,380 "GET /finance/invoices/ HTTP/1.1" 200 21569
+WARNING 2024-04-23 14:26:25,499 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:26:49,504 "GET /finance/invoices/create/ HTTP/1.1" 200 15324
+WARNING 2024-04-23 14:26:49,568 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:26:55,011 "GET /finance/invoices/?q=june-2024 HTTP/1.1" 200 14068
+WARNING 2024-04-23 14:26:55,074 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:27:07,452 "GET /finance/invoices/?q=may+2024 HTTP/1.1" 200 14068
+WARNING 2024-04-23 14:27:07,506 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:27:17,939 "GET /finance/invoices/?q=04-2024 HTTP/1.1" 200 14068
+WARNING 2024-04-23 14:27:17,986 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:33:34,393 "GET /finance/invoices/ HTTP/1.1" 200 21585
+WARNING 2024-04-23 14:33:34,458 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:33:47,064 "GET /finance/invoices/?q=03-2024 HTTP/1.1" 200 14084
+WARNING 2024-04-23 14:33:47,109 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:34:01,128 "GET /finance/invoices/?q=june HTTP/1.1" 200 14084
+WARNING 2024-04-23 14:34:01,181 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:34:08,269 "GET /finance/invoices/?q=June+2024 HTTP/1.1" 200 14084
+WARNING 2024-04-23 14:34:08,328 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:34:27,467 "GET /finance/invoices/?q=04%2F2024 HTTP/1.1" 200 14084
+WARNING 2024-04-23 14:34:27,529 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:35:37,061 "GET /finance/invoices/?q=june2024 HTTP/1.1" 200 14084
+WARNING 2024-04-23 14:35:37,127 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:36:05,428 "GET /event/ HTTP/1.1" 200 12322
+WARNING 2024-04-23 14:36:05,489 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:36:07,450 "GET /finance/invoices/ HTTP/1.1" 200 21794
+WARNING 2024-04-23 14:36:07,506 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:36:12,938 "GET /finance/invoices/?q=June+2024 HTTP/1.1" 200 14293
+WARNING 2024-04-23 14:36:12,995 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:36:23,663 "GET /finance/invoices/?q=may HTTP/1.1" 200 14293
+WARNING 2024-04-23 14:36:23,717 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:36:33,308 "GET /finance/invoices/?q=04%2F2024 HTTP/1.1" 200 14293
+WARNING 2024-04-23 14:36:33,358 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:36:44,009 "GET /finance/invoices/?q=04-2024 HTTP/1.1" 200 14293
+WARNING 2024-04-23 14:36:44,071 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:36:48,806 "GET /finance/invoices/?q=02 HTTP/1.1" 200 21794
+WARNING 2024-04-23 14:36:48,859 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:36:55,846 "GET /finance/invoices/?q=06 HTTP/1.1" 200 16121
+WARNING 2024-04-23 14:36:55,874 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:37:04,634 "GET /finance/invoices/?q=05 HTTP/1.1" 200 16777
+WARNING 2024-04-23 14:37:04,684 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:37:12,482 "GET /finance/invoices/3/ HTTP/1.1" 200 1174
+INFO 2024-04-23 14:37:21,147 "GET /finance/invoices/?q=03 HTTP/1.1" 200 16798
+WARNING 2024-04-23 14:37:21,205 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:37:30,396 "GET /finance/invoices/?q=04 HTTP/1.1" 200 21794
+WARNING 2024-04-23 14:37:30,452 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:37:42,341 "GET /finance/invoices/?q=06 HTTP/1.1" 200 16121
+WARNING 2024-04-23 14:37:42,400 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:38:05,795 "GET /student/list HTTP/1.1" 200 15302
+WARNING 2024-04-23 14:38:05,859 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:38:07,394 "GET /staff/list/ HTTP/1.1" 200 13368
+WARNING 2024-04-23 14:38:07,458 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:38:09,603 "GET /finance/list/ HTTP/1.1" 200 16028
+WARNING 2024-04-23 14:38:09,655 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:38:11,441 "GET /expenditures/categories/ HTTP/1.1" 200 14501
+WARNING 2024-04-23 14:38:11,473 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 14:44:10,126 "GET /goto-admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 14:44:10,398 "GET /admin/ HTTP/1.1" 200 9994
+INFO 2024-04-23 14:44:10,579 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-23 14:44:10,583 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-04-23 14:44:10,585 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2024-04-23 14:44:10,585 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-23 14:44:10,586 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2024-04-23 14:44:10,587 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-23 14:44:10,587 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-04-23 14:44:10,632 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-23 14:44:10,633 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+WARNING 2024-04-23 14:44:10,777 Not Found: /favicon.ico
+INFO 2024-04-23 14:44:45,050 "GET /admin/auth/ HTTP/1.1" 200 5576
+INFO 2024-04-23 14:44:52,291 "GET /admin/ HTTP/1.1" 200 9994
+INFO 2024-04-23 14:49:32,029 /home/kizito/element_zone/apps/staffs/views.py changed, reloading.
+INFO 2024-04-23 14:49:32,510 Watching for file changes with StatReloader
+INFO 2024-04-23 14:49:34,233 /home/kizito/element_zone/apps/staffs/views.py changed, reloading.
+INFO 2024-04-23 14:49:34,664 Watching for file changes with StatReloader
+INFO 2024-04-23 14:50:46,214 /home/kizito/element_zone/apps/staffs/views.py changed, reloading.
+INFO 2024-04-23 14:50:46,678 Watching for file changes with StatReloader
+INFO 2024-04-23 14:53:15,293 /home/kizito/element_zone/expenditures/views.py changed, reloading.
+INFO 2024-04-23 14:53:15,755 Watching for file changes with StatReloader
+INFO 2024-04-23 14:54:34,054 /home/kizito/element_zone/expenditures/views.py changed, reloading.
+INFO 2024-04-23 14:54:34,499 Watching for file changes with StatReloader
+INFO 2024-04-23 14:55:45,234 /home/kizito/element_zone/expenditures/views.py changed, reloading.
+INFO 2024-04-23 14:55:45,683 Watching for file changes with StatReloader
+INFO 2024-04-23 14:56:03,679 /home/kizito/element_zone/expenditures/views.py changed, reloading.
+INFO 2024-04-23 14:56:04,114 Watching for file changes with StatReloader
+INFO 2024-04-23 14:56:48,273 /home/kizito/element_zone/expenditures/views.py changed, reloading.
+INFO 2024-04-23 14:56:48,731 Watching for file changes with StatReloader
+INFO 2024-04-23 14:57:40,600 /home/kizito/element_zone/expenditures/views.py changed, reloading.
+INFO 2024-04-23 14:57:41,059 Watching for file changes with StatReloader
+INFO 2024-04-23 15:22:05,816 /home/kizito/element_zone/expenditures/views.py changed, reloading.
+INFO 2024-04-23 15:22:06,233 Watching for file changes with StatReloader
+INFO 2024-04-23 15:22:27,839 "GET /admin/ HTTP/1.1" 200 9994
+INFO 2024-04-23 15:22:32,407 "GET /staff/list/ HTTP/1.1" 200 13368
+WARNING 2024-04-23 15:22:32,472 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:22:35,738 "GET /event/ HTTP/1.1" 200 12322
+WARNING 2024-04-23 15:22:35,802 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:22:37,783 "GET /staff/list/ HTTP/1.1" 200 13368
+WARNING 2024-04-23 15:22:37,845 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:22:39,968 "GET /student/list HTTP/1.1" 200 15302
+WARNING 2024-04-23 15:22:40,030 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:22:48,123 "GET /result/class/ HTTP/1.1" 200 12839
+WARNING 2024-04-23 15:22:48,183 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:22:52,699 "GET / HTTP/1.1" 200 12391
+WARNING 2024-04-23 15:22:52,760 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:22:54,810 "GET /staff/list/ HTTP/1.1" 200 13368
+WARNING 2024-04-23 15:22:54,879 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:22:57,022 "GET /goto-admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 15:22:57,160 "GET /admin/ HTTP/1.1" 200 9994
+INFO 2024-04-23 15:23:15,800 "GET /finance/list/ HTTP/1.1" 200 16028
+WARNING 2024-04-23 15:23:15,860 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:23:17,233 "GET /finance/invoices/ HTTP/1.1" 200 21794
+WARNING 2024-04-23 15:23:17,299 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:23:26,328 "GET /finance/invoices/?q=05 HTTP/1.1" 200 16777
+WARNING 2024-04-23 15:23:26,392 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:23:38,768 "GET /finance/invoices/?q=04+2024 HTTP/1.1" 200 14293
+WARNING 2024-04-23 15:23:38,837 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:23:48,745 "GET /finance/invoices/?q=052024 HTTP/1.1" 200 14293
+WARNING 2024-04-23 15:23:48,808 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:23:56,819 "GET /finance/invoices/?q=05+2024 HTTP/1.1" 200 14293
+WARNING 2024-04-23 15:23:56,870 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:24:09,030 "GET /finance/invoices/?q=05-2024 HTTP/1.1" 200 14293
+WARNING 2024-04-23 15:24:09,087 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:24:20,385 "GET /finance/invoices/?q=05%2F2024 HTTP/1.1" 200 14293
+WARNING 2024-04-23 15:24:20,448 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:24:28,814 "GET /finance/invoices/?q=05 HTTP/1.1" 200 16777
+WARNING 2024-04-23 15:24:28,856 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:24:47,018 "GET / HTTP/1.1" 200 12391
+WARNING 2024-04-23 15:24:47,079 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:24:55,325 "GET /finance/list/ HTTP/1.1" 200 16028
+WARNING 2024-04-23 15:24:55,359 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:24:57,139 "GET /finance/invoices/ HTTP/1.1" 200 21794
+WARNING 2024-04-23 15:24:57,192 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:24:59,207 "GET /expenditures/expenditures/ HTTP/1.1" 200 15877
+WARNING 2024-04-23 15:24:59,264 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:25:01,597 "GET /expenditures/invoices/ HTTP/1.1" 200 14167
+WARNING 2024-04-23 15:25:01,657 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:25:09,277 "GET /result/class/ HTTP/1.1" 200 12839
+WARNING 2024-04-23 15:25:09,334 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:25:13,391 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-23 15:25:13,572 "GET /result/class/results/4/ HTTP/1.1" 200 15287
+WARNING 2024-04-23 15:25:13,632 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:25:18,451 "GET /result/single/student/results/18/ HTTP/1.1" 200 13395
+WARNING 2024-04-23 15:25:18,516 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:25:22,374 "GET /result/student/18/ HTTP/1.1" 200 16959
+WARNING 2024-04-23 15:25:22,431 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:37:59,556 "GET /result/edit-results/ HTTP/1.1" 200 14666
+WARNING 2024-04-23 15:37:59,628 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:01,469 "GET /expenditures/categories/ HTTP/1.1" 200 14501
+WARNING 2024-04-23 15:38:01,531 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:03,265 "GET /finance/list/ HTTP/1.1" 200 16028
+WARNING 2024-04-23 15:38:03,328 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:04,914 "GET /event/ HTTP/1.1" 200 12322
+WARNING 2024-04-23 15:38:04,975 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:08,451 "GET /expenditures/invoices/ HTTP/1.1" 200 14167
+WARNING 2024-04-23 15:38:08,515 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:13,092 "GET /result/single/class/list HTTP/1.1" 200 12857
+WARNING 2024-04-23 15:38:13,148 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:19,661 "GET /expenditures/invoices/ HTTP/1.1" 200 14167
+WARNING 2024-04-23 15:38:19,722 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:22,514 "GET /expenditures/invoices/create/ HTTP/1.1" 200 13226
+WARNING 2024-04-23 15:38:22,571 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:28,944 "GET /event/ HTTP/1.1" 200 12322
+WARNING 2024-04-23 15:38:29,002 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:30,996 "GET /staff/list/ HTTP/1.1" 200 13368
+WARNING 2024-04-23 15:38:31,054 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:38:40,864 "GET /school_properties/properties/ HTTP/1.1" 200 17538
+WARNING 2024-04-23 15:38:40,930 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:39:03,863 "GET /school_properties/properties/2/ HTTP/1.1" 200 13430
+WARNING 2024-04-23 15:39:03,919 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:39:14,703 "GET /expenditures/invoices/ HTTP/1.1" 200 14167
+WARNING 2024-04-23 15:39:14,762 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:39:17,415 "GET /student/list HTTP/1.1" 200 15302
+WARNING 2024-04-23 15:39:17,476 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:39:30,530 "GET /updations/delete-students/ HTTP/1.1" 200 13040
+WARNING 2024-04-23 15:39:30,584 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:39:36,911 "GET /student/list HTTP/1.1" 200 15302
+WARNING 2024-04-23 15:39:36,965 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:39:41,116 "GET /staff/list/ HTTP/1.1" 200 13368
+WARNING 2024-04-23 15:39:41,165 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:41:59,009 "GET / HTTP/1.1" 200 12359
+WARNING 2024-04-23 15:41:59,067 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:44:10,181 "GET /student/list HTTP/1.1" 200 15270
+WARNING 2024-04-23 15:44:10,228 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:44:28,329 "GET /staff/list/ HTTP/1.1" 200 13336
+WARNING 2024-04-23 15:44:28,386 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-23 15:44:28,979 Not Found: /favicon.ico
+INFO 2024-04-23 15:44:41,521 "GET /result/class/ HTTP/1.1" 200 12807
+WARNING 2024-04-23 15:44:41,583 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:44:47,177 "GET /event/ HTTP/1.1" 200 12290
+WARNING 2024-04-23 15:44:47,239 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:44:50,261 "GET / HTTP/1.1" 200 12359
+WARNING 2024-04-23 15:44:50,329 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-23 15:44:55,422 "GET / HTTP/1.1" 200 12359
+WARNING 2024-04-23 15:44:55,477 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-24 15:03:35,574 Watching for file changes with StatReloader
+INFO 2024-04-24 15:03:43,362 "GET / HTTP/1.1" 302 0
+INFO 2024-04-24 15:03:43,585 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-24 15:03:43,703 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-24 15:03:43,703 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2024-04-24 15:03:43,703 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2024-04-24 15:03:43,753 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+WARNING 2024-04-24 15:03:45,814 Not Found: /favicon.ico
+INFO 2024-04-24 15:03:48,473 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-24 15:03:48,678 "GET / HTTP/1.1" 200 12359
+WARNING 2024-04-24 15:03:48,780 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-24 15:03:48,797 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2024-04-24 15:03:49,766 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-24 15:04:04,137 "GET /exam/list/ HTTP/1.1" 200 15636
+WARNING 2024-04-24 15:04:04,198 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-24 15:04:04,771 Not Found: /favicon.ico
+INFO 2024-04-24 15:28:14,749 Watching for file changes with StatReloader
+INFO 2024-04-24 15:28:18,233 "GET / HTTP/1.1" 200 12359
+WARNING 2024-04-24 15:28:18,292 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-24 15:28:36,796 "GET /exam/list/ HTTP/1.1" 200 15636
+WARNING 2024-04-24 15:28:36,832 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:53:32,425 Watching for file changes with StatReloader
+INFO 2024-04-25 08:54:05,448 "GET / HTTP/1.1" 302 0
+INFO 2024-04-25 08:54:06,521 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-25 08:54:07,860 "GET /static/dist/img/lake.png HTTP/1.1" 200 211327
+INFO 2024-04-25 08:54:07,940 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2024-04-25 08:54:08,084 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-25 08:54:08,238 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2024-04-25 08:54:08,239 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2024-04-25 08:54:09,254 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2024-04-25 08:54:10,300 Not Found: /favicon.ico
+INFO 2024-04-25 08:54:12,652 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-25 08:54:13,006 "GET / HTTP/1.1" 200 12359
+WARNING 2024-04-25 08:54:13,439 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:13,512 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2024-04-25 08:54:14,231 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-25 08:54:17,951 "GET /event/ HTTP/1.1" 200 12290
+WARNING 2024-04-25 08:54:18,011 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:20,691 "GET /finance/list/ HTTP/1.1" 200 15996
+WARNING 2024-04-25 08:54:20,752 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:25,474 "GET /student/list HTTP/1.1" 200 15270
+WARNING 2024-04-25 08:54:25,538 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:27,800 "GET /student/create/ HTTP/1.1" 200 16646
+WARNING 2024-04-25 08:54:27,831 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:34,576 "GET /expenditures/categories/ HTTP/1.1" 200 14469
+WARNING 2024-04-25 08:54:34,646 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:36,693 "GET /expenditures/expenditures/ HTTP/1.1" 200 15845
+WARNING 2024-04-25 08:54:36,753 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:38,791 "GET /expenditures/invoices/ HTTP/1.1" 200 14135
+WARNING 2024-04-25 08:54:38,829 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:44,682 "GET /goto-admin/ HTTP/1.1" 302 0
+INFO 2024-04-25 08:54:44,979 "GET /admin/ HTTP/1.1" 200 9994
+INFO 2024-04-25 08:54:45,188 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-04-25 08:54:45,192 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-25 08:54:45,193 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-25 08:54:45,193 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-04-25 08:54:45,193 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-25 08:54:45,236 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2024-04-25 08:54:45,269 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2024-04-25 08:54:45,306 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-25 08:54:45,306 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-25 08:54:49,074 "GET /admin/ HTTP/1.1" 200 9994
+INFO 2024-04-25 08:54:55,298 "GET /event/ HTTP/1.1" 200 12290
+WARNING 2024-04-25 08:54:55,358 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:57,255 "GET /finance/list/ HTTP/1.1" 200 15996
+WARNING 2024-04-25 08:54:57,317 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 08:54:59,161 "GET /finance/invoices/ HTTP/1.1" 200 21762
+WARNING 2024-04-25 08:54:59,211 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:40:35,356 /home/kizito/element_zone/event/views.py changed, reloading.
+INFO 2024-04-25 12:40:35,898 Watching for file changes with StatReloader
+INFO 2024-04-25 12:50:31,639 /home/kizito/element_zone/apps/students/models.py changed, reloading.
+INFO 2024-04-25 12:50:32,104 Watching for file changes with StatReloader
+INFO 2024-04-25 12:51:37,585 Watching for file changes with StatReloader
+INFO 2024-04-25 12:51:41,308 "GET / HTTP/1.1" 302 0
+INFO 2024-04-25 12:51:41,323 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-25 12:51:44,381 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-25 12:51:44,546 "GET / HTTP/1.1" 200 12359
+WARNING 2024-04-25 12:51:44,641 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:51:47,761 "GET /expenditures/invoices/ HTTP/1.1" 200 14135
+WARNING 2024-04-25 12:51:47,795 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:51:55,815 "GET /finance/list/ HTTP/1.1" 200 15982
+WARNING 2024-04-25 12:51:55,881 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-25 12:51:56,532 Not Found: /favicon.ico
+INFO 2024-04-25 12:52:08,173 "GET /finance/1/detail/ HTTP/1.1" 200 14423
+WARNING 2024-04-25 12:52:08,245 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-25 12:52:08,831 Not Found: /favicon.ico
+INFO 2024-04-25 12:52:27,545 "GET /expenditures/invoices/ HTTP/1.1" 200 14135
+WARNING 2024-04-25 12:52:27,611 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:52:30,002 "GET /expenditures/expenditures/ HTTP/1.1" 200 15845
+WARNING 2024-04-25 12:52:30,063 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:52:33,126 "GET /event/ HTTP/1.1" 200 12290
+WARNING 2024-04-25 12:52:33,181 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:52:35,478 "GET /expenditures/invoices/ HTTP/1.1" 200 14135
+WARNING 2024-04-25 12:52:35,543 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:52:37,908 "GET /finance/invoices/ HTTP/1.1" 200 21762
+WARNING 2024-04-25 12:52:37,969 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:52:42,524 "GET /finance/list/ HTTP/1.1" 200 15982
+WARNING 2024-04-25 12:52:42,581 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:52:44,783 "GET /finance/2/detail/ HTTP/1.1" 200 14240
+WARNING 2024-04-25 12:52:44,839 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-25 12:52:45,244 Not Found: /favicon.ico
+INFO 2024-04-25 12:53:20,056 "GET /expenditures/categories/ HTTP/1.1" 200 14469
+WARNING 2024-04-25 12:53:20,126 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:53:22,291 "GET /event/create/ HTTP/1.1" 200 13411
+WARNING 2024-04-25 12:53:22,355 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:53:24,378 "GET /event/ HTTP/1.1" 200 12290
+WARNING 2024-04-25 12:53:24,436 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:54:47,644 "GET /finance/list/ HTTP/1.1" 200 15982
+WARNING 2024-04-25 12:54:47,705 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:55:01,910 "GET /finance/1/detail/ HTTP/1.1" 200 14423
+WARNING 2024-04-25 12:55:01,954 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:55:10,884 "GET /student/list HTTP/1.1" 200 15270
+WARNING 2024-04-25 12:55:10,950 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 12:56:14,028 "GET /student/list HTTP/1.1" 200 15270
+WARNING 2024-04-25 12:56:14,093 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 13:15:23,711 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-25 13:15:23,761 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 13:15:30,076 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-25 13:15:30,132 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-25 13:15:30,669 Not Found: /favicon.ico
+INFO 2024-04-25 13:15:41,866 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-25 13:15:41,929 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-25 13:15:42,442 Not Found: /favicon.ico
+INFO 2024-04-25 13:17:08,520 "GET / HTTP/1.1" 200 12362
+WARNING 2024-04-25 13:17:08,579 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 13:17:31,062 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-25 13:17:31,108 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 13:18:16,177 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-25 13:18:16,236 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 23:10:57,355 Watching for file changes with StatReloader
+INFO 2024-04-25 23:11:01,953 "GET / HTTP/1.1" 302 0
+INFO 2024-04-25 23:11:02,049 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-25 23:11:02,188 "GET /static/dist/img/lake.png HTTP/1.1" 200 211327
+INFO 2024-04-25 23:11:02,211 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+WARNING 2024-04-25 23:11:05,073 Not Found: /favicon.ico
+INFO 2024-04-25 23:11:09,129 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:11:09,277 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-25 23:11:09,382 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 23:11:13,794 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:11:13,804 "GET / HTTP/1.1" 302 0
+INFO 2024-04-25 23:11:13,874 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-25 23:11:19,804 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:11:19,994 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-25 23:11:20,093 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 23:11:23,573 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:11:23,590 "GET / HTTP/1.1" 302 0
+INFO 2024-04-25 23:11:23,614 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-25 23:11:39,413 "GET /event/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:11:39,422 "GET /accounts/login/?next=/event/ HTTP/1.1" 200 4205
+INFO 2024-04-25 23:11:42,071 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:11:42,252 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-25 23:11:42,338 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 23:11:44,519 "GET /staff/list/ HTTP/1.1" 200 13335
+WARNING 2024-04-25 23:11:44,585 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 23:11:46,357 "GET /event/create/ HTTP/1.1" 200 13410
+WARNING 2024-04-25 23:11:46,411 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 23:11:47,825 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-25 23:11:47,855 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 23:11:49,647 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-25 23:11:49,711 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 23:12:03,621 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:12:03,640 "GET / HTTP/1.1" 302 0
+INFO 2024-04-25 23:12:03,704 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-25 23:12:22,946 "GET /goto-admin/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:12:22,952 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:12:23,127 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2024-04-25 23:12:23,240 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-25 23:12:23,240 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-25 23:12:23,243 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-25 23:12:23,244 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-25 23:12:23,244 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-25 23:12:23,244 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-25 23:12:23,246 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-25 23:12:30,066 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:12:30,230 "GET /admin/ HTTP/1.1" 200 9994
+INFO 2024-04-25 23:12:30,326 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-04-25 23:12:30,332 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-25 23:12:30,332 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-25 23:37:34,966 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-25 23:37:35,014 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-25 23:37:45,651 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-25 23:37:45,672 "GET / HTTP/1.1" 302 0
+INFO 2024-04-25 23:37:45,702 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-25 23:37:45,801 "GET /static/dist/img/lake.png HTTP/1.1" 200 211327
+INFO 2024-04-26 00:09:57,129 "GET / HTTP/1.1" 302 0
+INFO 2024-04-26 00:09:57,137 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-26 00:10:00,712 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-26 00:10:00,902 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-26 00:10:01,002 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-26 00:10:04,224 "GET /student/list HTTP/1.1" 200 15269
+WARNING 2024-04-26 00:10:04,282 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-26 00:10:06,285 "GET /student/create/ HTTP/1.1" 200 16645
+WARNING 2024-04-26 00:10:06,334 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:47:37,246 Watching for file changes with StatReloader
+INFO 2024-04-28 10:47:58,121 "GET / HTTP/1.1" 302 0
+INFO 2024-04-28 10:47:59,280 "GET /accounts/login/?next=/ HTTP/1.1" 200 4199
+INFO 2024-04-28 10:48:00,365 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-28 10:48:00,410 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2024-04-28 10:48:00,438 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2024-04-28 10:48:00,440 "GET /static/dist/img/lake.png HTTP/1.1" 200 211327
+INFO 2024-04-28 10:48:01,674 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2024-04-28 10:48:02,139 Not Found: /favicon.ico
+INFO 2024-04-28 10:48:06,547 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-28 10:48:06,802 "GET / HTTP/1.1" 200 12358
+WARNING 2024-04-28 10:48:06,998 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:48:07,006 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2024-04-28 10:48:07,075 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-28 10:48:13,538 "GET /expenditures/invoices/ HTTP/1.1" 200 14134
+WARNING 2024-04-28 10:48:13,594 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:48:29,481 "GET /result/class/ HTTP/1.1" 200 12806
+WARNING 2024-04-28 10:48:29,541 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:48:32,259 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-28 10:48:32,324 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:48:33,966 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-28 10:48:34,023 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:48:36,530 "GET /finance/1/detail/ HTTP/1.1" 200 14422
+WARNING 2024-04-28 10:48:36,582 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:49:46,439 "GET /staff/list/ HTTP/1.1" 200 13335
+WARNING 2024-04-28 10:49:46,505 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:49:48,369 "GET /event/create/ HTTP/1.1" 200 13410
+WARNING 2024-04-28 10:49:48,416 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:49:50,182 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-28 10:49:50,240 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:49:54,741 "GET /result/class/ HTTP/1.1" 200 12806
+WARNING 2024-04-28 10:49:54,779 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:50:19,267 "GET /staff/list/ HTTP/1.1" 200 13335
+WARNING 2024-04-28 10:50:19,335 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:50:21,435 "GET /staff/3/ HTTP/1.1" 200 13972
+WARNING 2024-04-28 10:50:21,499 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:50:25,417 "GET /student/list HTTP/1.1" 200 15269
+WARNING 2024-04-28 10:50:25,483 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:50:28,038 "GET /student/18/ HTTP/1.1" 200 15118
+WARNING 2024-04-28 10:50:28,089 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:50:28,301 "GET /media/students/passports/1_CUopW0M.jpg HTTP/1.1" 304 0
+INFO 2024-04-28 10:50:30,091 "GET /event/create/ HTTP/1.1" 200 13410
+WARNING 2024-04-28 10:50:30,124 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:50:31,624 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-28 10:50:31,653 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:50:33,397 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-28 10:50:33,465 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:50:35,005 "GET /expenditures/expenditures/ HTTP/1.1" 200 15844
+WARNING 2024-04-28 10:50:35,064 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 10:50:44,461 "GET /school_properties/properties/ HTTP/1.1" 200 17505
+WARNING 2024-04-28 10:50:44,526 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:07:49,636 "GET /result/single/class/list HTTP/1.1" 200 12824
+WARNING 2024-04-28 11:07:49,717 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:07:51,804 "POST /result/single/class/list HTTP/1.1" 302 0
+INFO 2024-04-28 11:07:51,985 "GET /result/single/class/result/4/ HTTP/1.1" 200 14301
+WARNING 2024-04-28 11:07:52,094 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:07:57,468 "GET /result/single/student/results/18/ HTTP/1.1" 200 13362
+WARNING 2024-04-28 11:07:57,529 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:08:05,860 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-28 11:08:05,920 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:08:07,417 "GET /finance/2/detail/ HTTP/1.1" 200 14239
+WARNING 2024-04-28 11:08:07,440 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:08:11,812 "GET /expenditures/invoices/ HTTP/1.1" 200 14134
+WARNING 2024-04-28 11:08:11,868 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:08:31,269 "GET /class/list/ HTTP/1.1" 200 14204
+WARNING 2024-04-28 11:08:31,327 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:09:00,362 "GET /staff/list/ HTTP/1.1" 200 13335
+WARNING 2024-04-28 11:09:00,421 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:09:02,207 "GET /staff/3/ HTTP/1.1" 200 13972
+WARNING 2024-04-28 11:09:02,253 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:09:04,937 "GET /staff/3/delete/ HTTP/1.1" 200 12664
+WARNING 2024-04-28 11:09:04,988 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:09:07,228 "POST /staff/3/delete/ HTTP/1.1" 302 0
+INFO 2024-04-28 11:09:07,409 "GET /staff/list/ HTTP/1.1" 200 13112
+WARNING 2024-04-28 11:09:07,518 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:19:02,306 "GET /expenditures/categories/ HTTP/1.1" 200 14468
+WARNING 2024-04-28 11:19:02,348 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:19:05,381 "GET /expenditures/categories/create/ HTTP/1.1" 200 13417
+WARNING 2024-04-28 11:19:05,407 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:19:10,840 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-28 11:19:10,896 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:19:12,406 "GET /staff/list/ HTTP/1.1" 200 13112
+WARNING 2024-04-28 11:19:12,469 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:19:14,096 "GET /student/list HTTP/1.1" 200 15269
+WARNING 2024-04-28 11:19:14,141 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:22:07,038 "GET /student/18/ HTTP/1.1" 200 15118
+WARNING 2024-04-28 11:22:07,108 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:22:09,693 "GET /student/list HTTP/1.1" 200 15269
+WARNING 2024-04-28 11:22:09,755 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:22:11,011 "GET /staff/list/ HTTP/1.1" 200 13112
+WARNING 2024-04-28 11:22:11,047 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:22:12,859 "GET /staff/4/ HTTP/1.1" 200 13977
+WARNING 2024-04-28 11:22:12,919 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:38:55,398 "GET /expenditures/invoices/ HTTP/1.1" 200 14134
+WARNING 2024-04-28 11:38:55,461 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:39:00,080 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-28 11:39:00,141 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:39:01,622 "GET /finance/invoices/ HTTP/1.1" 200 20214
+WARNING 2024-04-28 11:39:01,690 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:39:13,815 "GET /finance/invoices/?q=05 HTTP/1.1" 200 16101
+WARNING 2024-04-28 11:39:13,868 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:39:18,045 "GET /finance/invoices/4/ HTTP/1.1" 200 1172
+INFO 2024-04-28 11:50:26,000 "GET /expenditures/invoices/ HTTP/1.1" 200 14134
+WARNING 2024-04-28 11:50:26,066 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 11:50:28,539 "GET /expenditures/expenditures/ HTTP/1.1" 200 15844
+WARNING 2024-04-28 11:50:28,599 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+WARNING 2024-04-28 12:01:33,987 Not Found: /favicon.ico
+INFO 2024-04-28 12:01:37,006 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-28 12:01:37,062 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:01:38,836 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-28 12:01:38,901 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:01:40,782 "GET /finance/invoices/ HTTP/1.1" 200 20214
+WARNING 2024-04-28 12:01:40,848 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:12:46,808 "GET /finance/invoices/4/ HTTP/1.1" 200 1172
+INFO 2024-04-28 12:12:49,088 "GET /finance/invoices/4/delete/ HTTP/1.1" 200 909
+INFO 2024-04-28 12:12:51,466 "POST /finance/invoices/4/delete/ HTTP/1.1" 302 0
+INFO 2024-04-28 12:12:51,639 "GET /finance/invoices/ HTTP/1.1" 200 18093
+WARNING 2024-04-28 12:12:51,743 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:12:54,104 "GET /student/list HTTP/1.1" 200 15269
+WARNING 2024-04-28 12:12:54,165 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:12:57,121 "GET /student/18/ HTTP/1.1" 200 15118
+WARNING 2024-04-28 12:12:57,187 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:12:58,885 "GET /student/list HTTP/1.1" 200 15269
+WARNING 2024-04-28 12:12:58,941 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:13:01,235 "GET /finance/invoices/ HTTP/1.1" 200 18093
+WARNING 2024-04-28 12:13:01,297 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:13:06,915 "GET /result/class/ HTTP/1.1" 200 12806
+WARNING 2024-04-28 12:13:06,972 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:13:10,286 "GET /expenditures/invoices/ HTTP/1.1" 200 14134
+WARNING 2024-04-28 12:13:10,335 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:13:15,373 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-28 12:13:15,435 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:15:44,450 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-28 12:15:44,509 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:15:46,618 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-28 12:15:46,677 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:15:48,762 "GET /expenditures/categories/ HTTP/1.1" 200 14468
+WARNING 2024-04-28 12:15:48,815 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:23:21,186 "GET /expenditures/categories/ HTTP/1.1" 200 14468
+WARNING 2024-04-28 12:23:21,239 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:23:24,293 "GET /expenditures/categories/create/ HTTP/1.1" 200 13417
+WARNING 2024-04-28 12:23:24,353 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:24:59,495 "GET /staff/list/ HTTP/1.1" 200 13112
+WARNING 2024-04-28 12:24:59,550 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:25:01,103 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-28 12:25:01,130 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:25:02,628 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-28 12:25:02,692 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:25:22,092 "GET /subject/list/ HTTP/1.1" 200 15044
+WARNING 2024-04-28 12:25:22,144 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:25:34,426 "GET /exam/list/ HTTP/1.1" 200 15635
+WARNING 2024-04-28 12:25:34,469 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:25:39,240 "GET /exam/1/delete/ HTTP/1.1" 200 13063
+WARNING 2024-04-28 12:25:39,301 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:25:41,449 "POST /exam/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-28 12:25:41,639 "GET /exam/list/ HTTP/1.1" 200 15295
+WARNING 2024-04-28 12:25:41,719 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:25:44,434 "GET /exam/2/delete/ HTTP/1.1" 200 13065
+WARNING 2024-04-28 12:25:44,490 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:25:46,693 "POST /exam/2/delete/ HTTP/1.1" 302 0
+INFO 2024-04-28 12:25:46,874 "GET /exam/list/ HTTP/1.1" 200 14954
+WARNING 2024-04-28 12:25:46,956 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:31:45,193 "GET /finance/list/ HTTP/1.1" 200 15981
+WARNING 2024-04-28 12:31:45,227 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:31:46,998 "GET /finance/1/detail/ HTTP/1.1" 200 14422
+WARNING 2024-04-28 12:31:47,052 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:31:51,318 "GET /finance/1/delete/ HTTP/1.1" 200 12676
+WARNING 2024-04-28 12:31:51,378 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:31:53,659 "POST /finance/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-28 12:31:53,807 "GET /finance/list/ HTTP/1.1" 200 15512
+WARNING 2024-04-28 12:31:53,917 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:31:55,522 "GET /finance/2/detail/ HTTP/1.1" 200 14239
+WARNING 2024-04-28 12:31:55,579 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:31:58,465 "GET /result/create/ HTTP/1.1" 200 13952
+WARNING 2024-04-28 12:31:58,528 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:40:27,938 "POST /result/create/ HTTP/1.1" 200 14922
+WARNING 2024-04-28 12:40:27,986 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:40:36,702 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-28 12:40:36,916 "GET /result/edit-results/ HTTP/1.1" 200 15428
+WARNING 2024-04-28 12:40:37,017 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:40:52,266 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-04-28 12:40:52,414 "GET /result/edit-results/ HTTP/1.1" 200 15593
+WARNING 2024-04-28 12:40:52,511 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:41:08,424 "GET /expenditures/invoices/ HTTP/1.1" 200 14134
+WARNING 2024-04-28 12:41:08,482 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:41:14,426 "GET /result/class/ HTTP/1.1" 200 12806
+WARNING 2024-04-28 12:41:14,483 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:41:16,437 "POST /result/class/ HTTP/1.1" 302 0
+INFO 2024-04-28 12:41:16,651 "GET /result/class/results/4/ HTTP/1.1" 200 15797
+WARNING 2024-04-28 12:41:16,721 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:49:32,852 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-28 12:49:32,920 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:49:34,599 "GET /event/ HTTP/1.1" 200 12289
+WARNING 2024-04-28 12:49:34,656 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+INFO 2024-04-28 12:49:36,380 "GET /finance/list/ HTTP/1.1" 200 15512
+WARNING 2024-04-28 12:49:36,444 "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
