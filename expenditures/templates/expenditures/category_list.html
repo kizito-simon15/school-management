@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category List</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        h1 {
+            color: black;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid lightblue;
+        }
+        th {
+            background-color: rgb(14, 24, 24);
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid lightblue;
+        }
+        td a {
+            color: rgba(3, 3, 32, 0.829);
+            text-decoration: none;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+        .no-categories {
+            font-style: italic;
+            color: rgb(23, 5, 139);
+        }
+        .btn-primary {
+            background-color: teal;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Category List</h1>
+        <!-- Add the "Create Category" button -->
+        <a href="{% url 'category_create' %}" class="btn btn-primary mb-3">Create Category</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Category Detail</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for category in object_list %}
+                <tr>
+                    <td><a href="{% url 'expenditure_create' %}?category={{ category.pk }}">{{ category.name }}</a></td>
+                    <td><a href="{% url 'category_detail' category.pk %}">View Details</a></td>
+                    <!-- Add the "Update Category" button -->
+                    <td><a href="{% url 'category_update' category.pk %}" class="btn btn-success">Update</a></td>
+                    <!-- Add the "Delete Category" button -->
+                    <td><a href="{% url 'category_delete' category.pk %}" class="btn btn-danger">Delete</a></td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4" class="no-categories">No categories found.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+{% endblock %}

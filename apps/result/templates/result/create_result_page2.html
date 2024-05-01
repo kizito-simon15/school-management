@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block title %}
+  Select all the subjects you want to create
+{% endblock title %}
+
+{% block content %}
+
+<div class="container mt-4">
+  <p>You selected <b>{{ count }} students</b> from the previous page.</p>
+
+  <form method="POST">
+    {% csrf_token %}
+
+    {{ form.non_field_errors }}
+
+    <div class="mb-3 row">
+      <label for="{{ form.session.id_for_label }}" class="col-sm-2 col-form-label">{{ form.session.label_tag}}</label>
+      <div class="col-sm">
+        {{ form.session | add_class:"form-control" }}
+        {{ form.session.errors }}
+      </div>
+    </div>
+
+    <div class="mb-3 row">
+      <label for="{{ form.term.id_for_label }}" class="col-sm-2 col-form-label">{{ form.term.label_tag}}</label>
+      <div class="col-sm">
+        {{ form.term | add_class:"form-control" }}
+        {{ form.term.errors }}
+      </div>
+    </div>
+
+    <div class="mb-3 row">
+      <label for="{{ form.exam.id_for_label }}" class="col-sm-2 col-form-label">{{ form.exam.label_tag}}</label>
+      <div class="col-sm">
+        {{ form.exam | add_class:"form-control" }}
+        {{ form.exam.errors }}
+      </div>
+    </div>
+
+    <div class="mb-3 row">
+      <label for="{{ form.subjects.id_for_label }}" class="col-sm-2 col-form-label">{{ form.subjects.label_tag}}</label>
+      <div class="col-sm">
+        {{ form.subjects | add_class:"form-check-input" }}
+        {{ form.subjects.errors }}
+      </div>
+    </div>
+
+    <input type="hidden" name="finish" value="True">
+    <input type="hidden" name="students" value="{{ students }}">
+
+    <input type="submit" class="btn btn-success" value="Create">
+  </form>
+</div>
+
+{% endblock content %}

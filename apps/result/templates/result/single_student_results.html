@@ -1,0 +1,42 @@
+{% extends "base.html" %} 
+{% block content %}
+<div class="container mt-4">
+    <h2>Student Name: <u>{{ student_name }}</u></h2>
+    <p>Registration Number: <u>{{ registration_number }}</u></p>
+    <!-- Table to display student results -->
+    <p>Student Results: <u>{{ current_exam }}</u></p>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th>Subject</th>
+                    <th>Test Score</th>
+                    <th>Exam Score</th>
+                    <th>Average</th>
+                    <th>Grade</th>
+                    <th>Comments</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for subject, details in subjects.items %}
+                <tr>
+                    <td>{{ subject }}</td>
+                    <td>{{ details.test_score | default:"None" }}</td>
+                    <td>{{ details.exam_score | default:"None" }}</td>
+                    <td>{{ details.average }}</td>
+                    <td>{{ details.grade }}</td>
+                    <td>{{ details.comments }}</td>
+                    <td>{{ details.status }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="text-center">
+        <button class="btn btn-primary d-print-none" onclick="window.history.back()">Back</button>
+        <button class="btn btn-success d-print-none" onclick="window.print()">Print</button>
+        <a class="btn btn-success d-print-none" href="{% url 'student-results' student_id=student_id %}">Student Information</a>
+    </div>
+</div>
+{% endblock %}

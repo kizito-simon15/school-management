@@ -1,0 +1,18 @@
+{% extends 'base.html' %} 
+{% block content %}
+<div class="container mt-4">
+  <h2 class="mb-4">Class List</h2>
+  <form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+      <label for="class-select" class="form-label">Select Class:</label>
+      <select class="form-select" name="class_id" id="class-select">
+        {% for class in classes %}
+        <option value="{{ class.id }}">{{ class.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">View Results</button>
+  </form>
+</div>
+{% endblock %}

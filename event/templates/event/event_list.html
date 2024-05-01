@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Event List{% endblock %}
+
+{% block content %}
+    {% for event in events %}
+    <li class="list-group-item rounded">
+      <a href="{% url 'event_detail' event.pk %}" class="text-decoration-none text-dark fw-bold bg-indigo p-1 rounded text-white">{{ event.title }}</a><br>
+      <span class="text-primary rounded">Description:</span> {{ event.description }}<br>
+      <span class="text-primary rounded">Date:</span> {{ event.date|date:"F d, Y" }}<br> <!-- Include the time component -->
+      <span class="text-primary rounded">Location:</span> {{ event.location }}<br>
+      <span class="text-primary rounded">Participants:</span> {{ event.participants }}<br>
+      <span class="text-dark rounded">Created:</span> <span class="text-success">{{ event.time_since_creation }} ago</span><br> <!-- Display time history since the event was created -->
+    </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}Invoices{% endblock title %}
+
+{% block breadcrumb %}
+<a class="btn btn-primary" href="{% url 'invoice-create' %}"><i class="fas fa-plus"></i> New Invoice</a>
+<a class="btn btn-primary" href="{% url 'bulk-invoice' %}"><i class="fas fa-upload"></i> Bulk Invoice</a>
+{% endblock breadcrumb %}
+
+{% block content-header %}
+<div class="card-header">
+  <div class="card-tools">
+    <a href="#" class="btn btn-tool" id="print-button"><i class="fas fa-print"></i> Print</a>
+  </div>
+</div>
+{% endblock content-header %}
+
+{% block content %}
+<div class="container">
+  <!-- Search field -->
+  <div class="form-group">
+    <input type="text" id="searchInput" class="form-control" style="width: 200px;" placeholder="Search by name...">
+  </div>
+</div>
+
+<div class="table-responsive">
+  <table id="invoicetable" class="table table-bordered table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th>S/N</th>
+        <th>Invoice</th>
+        <th>Session-term</th>
+        <th>Total Payable</th>
+        <th>Total Paid</th>
+        <th>Balance</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for invoice in object_list %}
+        <tr class='clickable-row' data-href="{% url 'invoice-detail' invoice.id %}">
+          <td>{{ forloop.counter }}</td>
+          <td>{{ invoice }}</td>
+          <td>{{ invoice.session }}-{{ invoice.term }}</td>
+          <td class="total-payable">{{ invoice.total_amount_payable | intcomma }}</td>
+          <td class="total-paid">{{ invoice.total_amount_paid | intcomma }}</td>
+          <td class="total-balance">{{ invoice.balance | intcomma }}</td>
+          <td><a class="btn btn-success btn-sm" style="color: white;" href="{% url 'receipt-create' %}?invoice={{ invoice.id }}">New Receipt</a></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3"></td>
+        <td><strong>Total Payable: <span id="total-payable" style="color: blue;"></span></strong></td>
+        <td><strong>Total Paid: <span id="total-paid" style="color: blue;"></span></strong></td>
+        <td><strong>Balance: <span id="total-balance" style="color: blue;"></span></strong></td>
+        <td></td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+{% endblock content %}
+
+{% block morejs %}
+<script>
+  $(document).ready(function() {
+    // Function to calculate total payable, total paid, and total balance
+    function calculateTotal() {
+      var totalPayable = 0;
+      var totalPaid = 0;
+      var totalBalance = 0;
+
+      $('.total-payable').each(function() {
+        totalPayable += parseFloat($(this).text().replace(/,/g, ''));
+      });
+      $('.total-paid').each(function() {
+        totalPaid += parseFloat($(this).text().replace(/,/g, ''));
+      });
+      $('.total-balance').each(function() {
+        totalBalance += parseFloat($(this).text().replace(/,/g, ''));
+      });
+
+      // Display formatted values with commas for readability
+      $('#total-payable').text(totalPayable.toLocaleString());
+      $('#total-paid').text(totalPaid.toLocaleString());
+      $('#total-balance').text(totalBalance.toLocaleString());
+    }
+
+    calculateTotal(); // Call the function initially
+
+    // Adding dynamic search functionality
+    $('#searchInput').on('input', function() {
+      var filter = $(this).val().toUpperCase();
+      $('#invoicetable tbody tr').each(function() {
+        var rowText = $(this).text().toUpperCase();
+        if (rowText.indexOf(filter) > -1) {
+          $(this).show();
+        } else {
+          $(this).hide();
+        }
+      });
+    });
+
+    // Print button functionality
+    $('#print-button').on('click', function() {
+      window.print();
+    });
+  });
+</script>
+{% endblock morejs %}

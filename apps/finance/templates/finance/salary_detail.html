@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Invoice Detail</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS styles */
+        /* Add your custom styles here */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Salary Invoice Detail</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>Staff:</strong> {{ invoice.staff }}</p>
+                <p><strong>Month:</strong> {{ invoice.month }}</p>
+                <p><strong>Amount:</strong> {{ invoice.amount }}</p>
+                <p><strong>Issued Date:</strong> {{ invoice.issued_date }}</p>
+                <p><strong>Remarks:</strong> {{ invoice.remarks }}</p>
+            </div>
+        </div>
+        <a href="{% url 'salary-invoice-update' invoice.pk %}" class="btn btn-primary">Update Invoice</a>
+        <a href="{% url 'salary-invoice-delete' invoice.pk %}" class="btn btn-danger">Delete Invoice</a>
+        <a href="{% url 'salary-invoice-list' %}" class="btn btn-secondary">Back to List</a>
+    </div>
+</body>
+</html>

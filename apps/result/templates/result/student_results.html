@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h2 class="text-center"><u>ELEMENTS LAKEZONE DCC & P/PRIMARY SCHOOL</u></h2>
+    <h3 class="text-center"><u>TAARIFA YA MAENDELEO YA TAALUMA NA TABIA</u></h3>
+    <!-- Dynamic text using template variables -->
+    <h3 class="text-center">
+        DARASA: <u>{{ student_class }}</u> MHULA:
+        <u>{{ current_term }}</u> MWAKA:
+        <u>{{ current_session }}</u>
+        MTIHANI:<u>{{ current_exam }}</u>
+    </h3>
+    <h4 class="text-center">Jina la mwanafunzi: <u>{{ student_name }}</u></h4>
+    <h5 class="text-center">Namba ya usajili: <u>{{ registration_number }}</u></h5>
+    <!-- Student image field -->
+    <div id="studentImageContainer"></div>
+    <input type="file" name="student_image" id="studentImageInput" accept="image/*" onchange="displayImage(event)" />
+    <!-- up to here -->
+    <!-- Table to display student results -->
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th>Subject</th>
+                    <th>Test Score</th>
+                    <th>Exam Score</th>
+                    <th>Average</th>
+                    <th>Grade</th>
+                    <th>Comments</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for subject, details in subjects.items %}
+                <tr>
+                    <td>{{ subject }}</td>
+                    <td>{{ details.test_score | default:"None" }}</td>
+                    <td>{{ details.exam_score | default:"None" }}</td>
+                    <td>{{ details.average | default:"None" }}</td>
+                    <td>{{ details.grade | default:"None" }}</td>
+                    <td>{{ details.comments }}</td>
+                    <td>{{ details.status | default:"None" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <p class="text-center">
+        JUMLA YA ALAMA ALIZOPATA <u>{{ total }}</u> KATI YA ALAMA
+        <u>{{ overall_total_marks }}</u> WASTANI
+        <u>{{ overall_average }}</u> DARAJA
+        <u>{{ overall_grade }}</u> NAFASI YAKE DARASANI
+        <u>{{ student_position }}</u> KATI YA WANAFUNZI
+        <u>{{ total_students }}</u>
+    </p>
+    <p class="text-center" ><u>TABIA YAKE KWA UJUMLA</u></p>
+    <p class="text-center">
+        A.<u>VIZURI SANA</u> B.<u>VIZURI</u> C.<u>WASTANI</u> D.<u>HAFIFU</u>
+        F.<u>MBAYA</u>
+    </p>
+    <p class="text-center">
+        Nidhamu:<input type="text" name="nidhamu" class="blue-text" style="width: 30px;" /> Michezo:
+        <input type="text" name="michezo" class="blue-text" style="width: 30px;" />
+        Kujali mali:
+        <input type="text" name="kujali_mali" class="blue-text" style="width: 30px;" /> Ushirikiano:
+        <input type="text" name="ushirikiano" class="blue-text" style="width: 30px;" />
+    </p>
+    <!-- up to here but the other remaining fields below remains the same -->
+    <p class="text-center">
+        Shule imefungwa tarehe:
+        <input type="date" name="shule_imefungwa_tarehe" class="blue-text" /> Itafunguliwa tarehe:
+        <input type="date" name="itafunguliwa_tarehe" class="blue-text" />
+    </p>
+    <p class="text-center" style="display: flex; align-items: center;">
+        <span style="flex: 0 0 auto;">Maoni/Maelezo ya Mwalimu wa darasa:</span>
+        <textarea name="maoni_maelezo_mwalimu" rows="4" cols="30" class="vertical-middle-placeholder blue-text" style="flex: 1;"></textarea>
+    </p>
+    <p class="text-center"><u>UTHIBITISHO</u></p>
+    <p class="text-center" style="display: flex; align-items: center;">
+        <span style="flex: 0 0 auto;">MKUU WA SHULE:</span>
+        <textarea name="maoni_maelezo_mwalimu" rows="4" cols="30" class="vertical-middle-placeholder blue-text" style="flex: 1;"></textarea>
+    </p>
+    <p class="text-center"><u>MAONI YA MZAZI</u></p>
+    <p class="text-center" style="display: flex; align-items: center;">
+        <textarea name="maoni_maelezo_mwalimu" rows="4" cols="30" class="vertical-middle-placeholder blue-text" style="flex: 1;"></textarea>
+    </p>
+    <!-- Buttons for printing and navigation -->
+    <div class="text-center d-print-none"> <!-- Hide on print -->
+        <button class="btn btn-primary" onclick="window.history.back()">Back</button>
+        <button class="btn btn-success" onclick="window.print()">Print</button>
+    </div>
+</div>
+<script>
+    function displayImage(event) {
+        var reader = new FileReader();
+        reader.onload = function() {
+            var output = document.getElementById('studentImageContainer');
+            output.innerHTML = '<img src="' + reader.result + '" style="width: 200px; height: 200px;" />';
+        };
+        reader.readAsDataURL(event.target.files[0]);
+    }
+
+    // Function to hide elements when printing
+    function hideOnPrint() {
+        // Hide the student image input and its container
+        document.getElementById('studentImageInput').style.display = 'none';
+    }
+
+    // Call the hideOnPrint function when the page is being printed
+    window.onbeforeprint = hideOnPrint;
+</script>
+
+<style>
+    @media print {
+        /* Hide buttons on print */
+        .d-print-none {
+            display: none !important;
+        }
+    }
+    .blue-text {
+        color: blue;
+    }
+</style>
+{% endblock %}

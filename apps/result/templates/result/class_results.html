@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+  <h2 class="text-success mb-4"><u>The {{ current_exam }} results</u></h2>
+  <!-- Table for displaying student results -->
+  <table class="table table-bordered table-student-width">
+    <thead class="table-success">
+      <tr>
+        <th rowspan="2" class="text-white bg-success">Student</th>
+        <th rowspan="2" class="text-white bg-success">Student Class</th>
+        <!-- Display each subject as a separate column -->
+        {% for subject in subjects %}
+        <th colspan="3" class="text-white bg-success">{{ subject }}</th>
+        {% endfor %}
+        <th rowspan="2" class="text-white bg-success">Total</th>
+        <th rowspan="2" class="text-white bg-success">Overall Average</th>
+        <th rowspan="2" class="text-white bg-success">Overall Status</th>
+        <th rowspan="2" class="text-white bg-success">Position</th>
+      </tr>
+      <tr>
+        <!-- Display Test Score and Exam Score columns for each subject -->
+        {% for subject in subjects %}
+        <th class="text-white bg-success">Test Score</th>
+        <th class="text-white bg-success">Exam Score</th>
+        <th class="text-white bg-success">Average</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for student_data in data %}
+      <tr>
+        <!-- Modify this line to make the student's name a link -->
+        <td style="width: 30%; white-space: nowrap;"> <!-- Adjust the width as needed -->
+          <a href="{% url 'single-student' student_id=student_data.student.id %}" class="text-decoration-none">{{ student_data.student }}</a>
+        </td>
+        <td style="width: 30%; white-space: nowrap;"> <!-- Adjust the width as needed -->
+          {{ student_data.student_class }}
+        </td>
+        {% for subject, subject_data in student_data.subjects.items %}
+        <!-- Display 'None' if either test_score or exam_score is None -->
+        <td>{{ subject_data.test_score|default:"None" }}</td>
+        <td>{{ subject_data.exam_score|default:"None" }}</td>
+        <td>{{ subject_data.average|default:"None"|floatformat:"2" }}</td>
+        {% endfor %}
+        <td>{{ student_data.total }}</td>
+        <!-- Display the total -->
+        <td>{{ student_data.overall_average|floatformat:"2" }}</td>
+        <td>{{ student_data.overall_status }}</td>
+        <td>{{ forloop.counter }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <p><u>Subjects Rankings:</u></p>
+  <!-- Table for displaying subject overall average and GPA -->
+  <table class="table table-bordered table-subject-width">
+    <thead class="table-success">
+      <tr>
+        <th class="text-white bg-success">Subject Position</th>
+        <th class="text-white bg-success">Subject</th>
+        <th class="text-white bg-success">Subject Average</th>
+        <th class="text-white bg-success">Subject Grade</th>
+        <th class="text-white bg-success">Subject GPA</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for subject in subject_data %}
+      <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ subject.subject }}</td>
+        <td>{{ subject.average }}</td>
+        <td>{{ subject.subject_grade }}</td>
+        <td>{{ subject.gpa }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <div class="mt-4 d-print-none">
+    <button
+      type="button"
+      class="btn btn-success btn-lg me-2" 
+      onclick="printTable()"
+    >
+      Print
+    </button>
+    <a href="{% url 'class-list' %}" class="btn btn-success btn-lg" role="button" style="display: none;">Back</a>
+  </div>
+</div>
+
+<script>
+  function printTable() {
+    window.print();
+  }
+</script>
+<style>
+  @media print {
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: left;
+    }
+    .table-success {
+      background-color: #28a745;
+      color: #fff;
+    }
+    .text-white {
+      color: #fff;
+    }
+  }
+  /* Custom CSS for adjusting table width */
+  .table-student-width {
+    width: 100%; /* Adjust this value as needed for student table */
+  }
+  .table-subject-width {
+    width: 80%; /* Adjust this value as needed for subject table */
+  }
+</style>
+{% endblock %}

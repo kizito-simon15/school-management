@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<style>
+  .form-group {
+    border-color: teal;
+  }
+</style>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="btn btn-primary">Create</button>
+</form>
+{% endblock %}

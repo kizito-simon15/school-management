@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+<style>
+  /* Custom CSS for table borders */
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #dee2e6;
+  }
+
+  .table-bordered thead th,
+  .table-bordered thead td {
+    border-bottom-width: 2px;
+  }
+
+  /* Green color for student names */
+  .student-name {
+    color: green;
+  }
+</style>
+{% endblock extra_css %}
+
+{% block title %}
+Update Results
+{% endblock title %}
+
+{% block content %}
+<div class="container mt-4">
+  <form method="GET">
+    <div class="mb-3">
+      <label for="class_select" class="form-label">Select Class:</label>
+      <select name="class_select" id="class_select" class="form-select">
+        <option value="">All Classes</option>
+        {% for student_class in student_classes %}
+        <option value="{{ student_class.id }}">{{ student_class.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="subject_select" class="form-label">Select Subject:</label>
+      <select name="subject_select" id="subject_select" class="form-select">
+        <option value="">All Subjects</option>
+        {% for subject in subjects %}
+        <option value="{{ subject.id }}">{{ subject.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="student_name" class="form-label">Enter Student Name:</label>
+      <input type="text" name="student_name" id="student_name" class="form-control" placeholder="Enter student name">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Search">
+  </form>
+
+  <form method="POST">
+    {% csrf_token %}
+    {{ formset.management_form}}
+
+    <table id="studenttable" class="table table-bordered table-striped table-hover">
+      <thead>
+        <tr class="bg-success text-light"> <!-- Apply Bootstrap 5 classes for green color to table headers -->
+          <th scope="col">Serial Number</th>
+          <th scope="col" class="student-name">Name</th> <!-- Apply green color to student names -->
+          <th scope="col">Subject</th>
+          <th scope="col">Test Score</th>
+          <th scope="col">Exam Score</th>
+          <th scope="col">Delete</th>
+          <th scope="col">Class</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for form in formset %}
+        <tr>
+          <th scope="row">{{ forloop.counter }}</th>
+          <td class="student-name">{{ form.instance.student }}</td> <!-- Apply green color to student names -->
+          <td>{{ form.instance.subject }}</td>
+          <td>
+            {{ form.test_score | add_class:"form-control form-control-sm" }}
+          </td>
+          <td>
+            {{ form.exam_score | add_class:"form-control form-control-sm" }}
+          </td>
+          <td>{{ form.DELETE }}</td> <!-- Ensure DELETE field is rendered -->
+          <td>{{ form.instance.current_class }}</td>
+          <td>{{ form.id }}</td> <!-- Hidden field for form's ID -->
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-success">Save</button>
+  </form>
+</div>
+{% endblock content %}
+
+{% block extra_js %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // Function to select all checkboxes in the "Delete" column
+    $('#select-all-checkbox').change(function() {
+      if ($(this).is(':checked')) {
+        $('input[type="checkbox"][name*="-DELETE"]').prop('checked', true);
+      } else {
+        $('input[type="checkbox"][name*="-DELETE"]').prop('checked', false);
+      }
+    });
+  });
+</script>
+{% endblock extra_js %}

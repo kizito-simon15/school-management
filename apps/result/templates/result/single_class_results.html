@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+  <h2 class="text-success mb-4"><u>The {{ current_exam }} Results</u></h2>
+  <!-- Table for displaying student results -->
+  <div class="table-responsive">
+    <table class="table table-bordered table-success table-striped">
+      <thead class="table-success">
+        <tr>
+          <th>Serial Number</th>
+          <th>Student</th>
+          <th>Student Class</th>
+          <!-- Display each subject as a separate column -->
+          {% for subject in subjects %}
+          <th>{{ subject }}</th>
+          {% endfor %}
+          <th>Total</th>
+          <th>Overall Average</th>
+          <th>Overall Status</th>
+          <th>Position</th>
+        </tr>
+        <tr>
+          <!-- Display Test Score and Exam Score columns for each subject -->
+          {% for subject in subjects %}
+          <!-- Placeholder row to maintain table structure -->
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+      {% for student_data in data %}
+      <tr>
+        <td>{{ forloop.counter }}</td>
+        <!-- Modify this line to make the student's name a link -->
+        <td>
+          <a href="{% url 'single-student' student_id=student_data.student.id %}" class="text-decoration-none">{{ student_data.student }}</a>
+        </td>
+        <td>{{ student_data.student_class }}</td>
+        {% for subject, subject_data in student_data.subjects.items %}
+        <!-- Display 'None' if either test_score or exam_score is None -->
+        <td>{{ subject_data.average|default:"None"|floatformat:"2" }}</td>
+        {% endfor %}
+        <td>{{ student_data.total }}</td> <!-- Display the total -->
+        <td>{{ student_data.overall_average|floatformat:"2" }}</td> <!-- Display the overall_average -->
+        <td>{{ student_data.overall_status }}</td>
+        <td>{{ forloop.counter }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <p><u>Subjects Rankings:</u></p>
+  <!-- Table for displaying subject overall average and GPA -->
+  <div class="table-responsive">
+    <table class="table table-bordered table-success table-striped">
+      <thead class="table-success">
+        <tr>
+          <th>Subject Position</th>
+          <th>Subject</th>
+          <th>Subject Average</th>
+          <th>Subject Grade</th>
+          <th>Subject GPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for subject in subject_data %}
+        <tr>
+          <td>{{ forloop.counter }}</td>
+          <td>{{ subject.subject }}</td>
+          <td>{{ subject.average }}</td>
+          <td>{{ subject.subject_grade }}</td>
+          <td>{{ subject.gpa }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Buttons for printing and navigation -->
+  <div class="mt-4 d-print-none"> <!-- Hide on print -->
+    <button type="button" class="btn btn-success btn-lg me-2" onclick="window.print()">Print</button>
+    <a href="{% url 'class-list' %}" class="btn btn-success btn-lg" role="button">Back</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block title %} Select Student(s) {% endblock title %} 
+
+{% block content-header %}
+<div class="card">
+  <div class="card-header">
+    <h3 class="card-title">
+      <button type="submit" class="btn btn-success" form="select-students-form">
+        Proceed
+      </button>
+    </h3>
+    <div class="card-tools">
+      <p class="small btn btn-outline-secondary btn-sm">
+        You can also search by name/class by typing in the search box
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock content-header %} 
+
+{% block content %}
+<form method="POST" id="select-students-form" action="{% url 'create-result' %}">
+  {% csrf_token %} 
+  {% if students_by_class %} 
+  {% for class_key, students in students_by_class.items %}
+  <h2>Class: <u>{{ class_key }}</u></h2>
+  <table class="table table-sm table-bordered">
+    <thead class="table-light">
+      <tr>
+        <th><input type="checkbox" id="selecter_{{ class_key }}" /></th>
+        <th>Name</th>
+        <th>Current Class</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for student in students %}
+      <tr>
+        <td>
+          <input type="checkbox" id="student_{{ student.id }}" name="students" value="{{ student.id }}" />
+        </td>
+        <td>{{ student }}</td>
+        <td>{{ student.current_class }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endfor %} 
+  {% else %}
+  <p>No students found.</p>
+  {% endif %}
+  <button type="submit" class="btn btn-success proceed-btn">Proceed</button>
+</form>
+{% endblock content %} 
+
+{% block morejs %}
+<script>
+  // DataTable initialization
+  $("table").DataTable({
+    ordering: false,
+  });
+
+  // Select/deselect all checkboxes
+  $("[id^='selecter_']").change(function () {
+    if (this.checked) {
+      $(this)
+        .closest("table")
+        .find('input[name="students"]')
+        .prop("checked", true);
+    } else {
+      $(this)
+        .closest("table")
+        .find('input[name="students"]')
+        .prop("checked", false);
+    }
+  });
+</script>
+{% endblock morejs %}

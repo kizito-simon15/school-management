@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% block title %}Pupils{% endblock title %}
+
+{% block breadcrumb %}
+<a class="btn btn-primary" href="{% url 'student-create' %}"><i class="fas fa-plus"></i> New pupil</a>
+<a class="btn btn-primary" href="{% url 'student-upload' %}"><i class="fas fa-upload"></i> Upload pupils</a>
+{% endblock breadcrumb %}
+
+{% block content %}
+<div class="container">
+  <!-- Select dropdown for current classes -->
+  <div class="form-group">
+    <label for="classSelect" style="color: teal;">Select Class:</label>
+    <select id="classSelect" class="form-control" style="background-color:teal; color: white">
+      <option value="">All</option>
+      {% for student_class in student_classes %}
+        <option value="{{ student_class.name }}">{{ student_class.name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <!-- Filter button -->
+  <button onclick="filterStudents()" class="btn btn-primary">Filter</button>
+
+  <!-- Search field -->
+  <div class="form-group">
+    <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+  </div>
+</div>
+
+<div class="table-responsive">
+  <table id="studenttable" class="table table-bordered table-hover">
+    <thead class="thead-teal">
+      <tr>
+        <th scope="col">S/N</th>
+        <th scope="col">Registration Number</th>
+        <th scope="col">Fullname</th>
+        <th scope="col">Current Class</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Mobile Phone Number</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for student in object_list %}
+        <tr class='clickable-row' data-href="{% url 'student-detail' student.id %}">
+          <td>{{ forloop.counter }}</td>
+          <td>{{ student.registration_number }}</td>
+          <td>{{ student.firstname }} {{ student.other_name }} {{ student.surname }} </td>
+          <td>{{ student.current_class }}</td>
+          <td>{{ student.get_gender_display }}</td>
+          <td>{{ student.parent_mobile_number }}</td>
+          <td>{{ student.get_current_status_display }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock content %}
+
+{% block morejs %}
+<script>
+  // Function to filter students based on selected class
+  function filterStudents() {
+    const selectedClass = document.getElementById("classSelect").value;
+    const rows = document.getElementById("studenttable").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+    for (let i = 0; i < rows.length; i++) {
+      const currentClass = rows[i].getElementsByTagName("td")[3].innerText;
+      if (selectedClass === "" || selectedClass === currentClass) {
+        rows[i].style.display = "";
+      } else {
+        rows[i].style.display = "none";
+      }
+    }
+  }
+
+  // Function to filter students based on search input
+  document.getElementById("searchInput").addEventListener("keyup", function() {
+    const filter = this.value.toUpperCase();
+    const rows = document.getElementById("studenttable").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+    for (let i = 0; i < rows.length; i++) {
+      const cells = rows[i].getElementsByTagName("td");
+      let found = false;
+      for (let j = 0; j < cells.length; j++) {
+        const textValue = cells[j].textContent || cells[j].innerText;
+        if (textValue.toUpperCase().indexOf(filter) > -1) {
+          found = true;
+          break;
+        }
+      }
+      if (found) {
+        rows[i].style.display = "";
+      } else {
+        rows[i].style.display = "none";
+      }
+    }
+  });
+</script>
+{% endblock morejs %}

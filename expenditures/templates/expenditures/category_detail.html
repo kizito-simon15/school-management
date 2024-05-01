@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ category.name }} Expenditures</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom CSS styles */
+        .container {
+            overflow-y: auto;
+            max-height: 80vh;
+            padding: 20px;
+        }
+        .bg-lightblue {
+            background-color: #add8e6; /* Light blue background color */
+        }
+        .text-white {
+            color: white; /* White text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ category.name }} Expenditures</h1>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="bg-lightblue text-white">
+                    <tr>
+                        <th>Date</th>
+                        <th>Item Name</th>
+                        <th>Quantity</th>
+                        <th>Amount</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for expenditure in expenditures %}
+                        <tr>
+                            <td>{{ expenditure.date }}</td>
+                            <td>{{ expenditure.item_name }}</td>
+                            <td>{{ expenditure.quantity }}</td>
+                            <td>{{ expenditure.amount }}</td>
+                            <td>{{ expenditure.description }}</td>
+                            <td>
+                                <a href="{% url 'expenditure_edit' expenditure.pk %}" class="btn btn-primary btn-sm">Edit</a>
+                                <a href="{% url 'expenditure_delete' expenditure.pk %}" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <!-- Total expenditure amount and total balance -->
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>Total Expenditure Amount: <span class="font-weight-bold">{{ total_expenditure_amount }}</span></p>
+            </div>
+            <div class="col-auto">
+                <p>Total Balance: <span class="font-weight-bold">{{ total_balance }}</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block title %}
+    {% if form.instance.pk %}Edit{% else %}Create{% endif %} Salary Invoice
+{% endblock title %}
+
+{% block content %}
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        .container {
+            color: dodgerblue;
+        }
+        .add-invoice-title {
+            color: white;
+            background-color: teal;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .form-group label {
+            color: blue;
+        }
+        .form-control {
+            border: 1px solid lightblue;
+        }
+        .form-control:focus {
+            border-color: lightblue;
+            box-shadow: 0 0 0 0.2rem rgba(173, 216, 230, 0.5);
+        }
+        .btn-primary {
+            background-color: teal;
+            border-color: teal;
+        }
+        .btn-primary:hover {
+            background-color: lightblue;
+            border-color: lightblue;
+        }
+        input[type="date"]::-webkit-calendar-picker-indicator {
+            filter: invert(1);
+        }
+        input[type="date"] {
+            color: lightred;
+        }
+    </style>
+
+    <div class="container">
+        <h1 class="mt-5 add-invoice-title">{% if form.instance.pk %}Edit{% else %}Create{% endif %} Salary Invoice</h1>
+        <form method="post" class="mt-4">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="id_staff">Staff:</label>
+                {{ form.staff|add_class:"form-control" }}
+            </div>
+            <div class="form-group">
+                <label for="id_month">Month:</label>
+                <input type="date" id="id_month" name="month" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="id_gross_salary">Gross Salary:</label>
+                {{ form.gross_salary|add_class:"form-control" }}
+            </div>
+            <div class="form-group">
+                <label for="id_deductions">Deductions:</label>
+                {{ form.deductions|add_class:"form-control" }}
+            </div>
+            <div class="form-group">
+                <label for="id_issued_date">Issued Date:</label>
+                <input type="date" id="id_issued_date" name="issued_date" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="id_remarks">Remarks:</label>
+                {{ form.remarks|add_class:"form-control" }}
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a href="{% url 'salary-invoice-list' %}" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Edit Event: {{ event.title }}{% endblock %}
+
+{% block content %}
+  <h1>Edit Event: {{ event.title }}</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Update Event</button>
+  </form>
+{% endblock %}

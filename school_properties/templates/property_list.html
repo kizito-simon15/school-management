@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <h1 class="mb-4">Property List</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Details</th>
+                        <!-- <th>Actions</th> -->
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for property in properties %}
+                    <tr>
+                        <td>{{ property.name }}</td>
+                        <td>{{ property.quantity }}</td>
+                        <td><a href="{% url 'property_detail' pk=property.pk %}" class="btn btn-primary">View Details</a></td>
+                        <!-- <td> -->
+                            <!-- <a href="{% url 'update_property' pk=property.pk %}" class="btn btn-warning me-2">Update</a> -->
+                            <!-- <form action="{% url 'delete_property' pk=property.pk %}" method="post" style="display: inline;"> -->
+                                <!-- {% csrf_token %} -->
+                                <!-- <button type="submit" class="btn btn-danger">Delete</button> -->
+                            <!-- </form> -->
+                        <!-- </td> -->
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <a href="{% url 'add_property' %}" class="btn btn-success">Add New Property</a>
+        </div>
+    </div>
+</div>
+{% endblock content %}
