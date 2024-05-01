@@ -1,1 +1,2 @@
 # school-management
+@ django school
